@@ -10,21 +10,21 @@ import Skills from "./Branches/Skills";
 export default function Navigation() {
   return (
     <div className="mx-10 my-16">
-      <div className="md:grid md:grid-cols-2 md:space-x-10 ">
+      <div className="lg:grid lg:grid-cols-2 lg:space-x-10 ">
         <div>
           <About />
         </div>
         <div className="">
-          <div className="md:grid md:grid-flow-col md:space-x-5 ">
+          <div className="lg:grid lg:grid-flow-col lg:space-x-5 ">
             <Experience />
             <Work />
           </div>
           <Services />
         </div>
       </div>
-      <div className="md:grid md:grid-flow-col md:space-x-10 md:my-5 ">
+      <div className="lg:grid lg:grid-flow-col lg:space-x-10 lg:my-5 ">
         <Contact />
-        <div className="md:grid md:grid-flow-col md:space-x-5 ">
+        <div className="lg:grid lg:grid-flow-col lg:space-x-5 ">
           <Education />
           <Skills />
         </div>

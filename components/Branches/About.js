@@ -12,7 +12,7 @@ export default function About() {
       onMouseLeave={() => {
         setHover(false);
       }}
-      className="bg-blue-700 rounded-3xl overflow-hidden lg:hover:scale-95 transition duration-300 ease-out cursor-pointer"
+      className="bg-blue-700 lg:h-full rounded-3xl overflow-hidden lg:hover:scale-95 transition duration-300 ease-out cursor-pointer"
     >
       <div className="flex justify-between mx-5 my-5">
         <p className="bg-white text-blue-700 rounded-xl py-2 px-4 shadow-lg self-center text-xs font-bold">
@@ -27,12 +27,14 @@ export default function About() {
       </div>
       <div
         className={`${!hover && style.aboutTitle} 
-        mx-5 text-2xl w-[540px] lg:text-5xl lg:w-[550px] font-bold tracking-widest my-10 flex `}
+        hidden lg:inline-block mx-5 w-[540px] lg:text-5xl lg:w-[550px] font-bold tracking-widest my-10 `}
       >
         <span>LEARN MORE ABOUT THE FREELANCER</span>
       </div>
-
-      <div className="mx-5 my-5 text-xs font-semibold flex justify-between">
+      <div className="lg:hidden text-2xl mx-5 font-bold tracking-widest ">
+        <span>LEARN MORE ABOUT THE FREELANCER</span>
+      </div>
+      <div className="mx-5 my-5 lg:pt-16 text-xs font-semibold flex justify-between ">
         <p className="self-center tracking-widest cursor-pointer ">About</p>
         <div
           className=" cursor-pointer py-2 px-2 self-center lg:hover:bg-blue-100 lg:hover:text-blue-700 rounded-full 
