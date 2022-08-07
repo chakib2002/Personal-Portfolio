@@ -1,22 +1,14 @@
-import Head from "next/head";
-import Image from "next/image";
 import { useState } from "react";
 import Banner from "../components/Banner";
+import Topbar from "../components/Topbar";
 import Navigation from "../components/Navigation";
-import Skills from "../components/Skills";
 
 export default function Home({ skills }) {
-  const [showSkills, setShowSkills] = useState(false);
-  const [clickShowSkills, setClickShowSkills] = useState(false);
   return (
-    <div className="text-white bg-slate-900 h-[4000px] ">
+    <div className="text-white bg-slate-900 h-[4000px] overflow-hidden">
+      <Topbar />
+      <Banner />
       <Navigation />
-      <Banner
-        showSkills={showSkills}
-        setShowSkills={setShowSkills}
-        setClickShowSkills={setClickShowSkills}
-      />
-      <Skills skills={skills} showSkills={showSkills} />
     </div>
   );
 }
