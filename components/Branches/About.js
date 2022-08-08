@@ -32,9 +32,9 @@ export default function About() {
         <span>LEARN MORE ABOUT THE FREELANCER</span>
       </div>
       <div className="lg:hidden text-2xl mx-5 font-bold tracking-widest ">
-        <span>LEARN MORE ABOUT THE FREELANCER</span>
+        <span>Learn more about the freelancer </span>
       </div>
-      <div className="mx-5  mt-7 lg:pt-16 text-xs font-semibold flex justify-between ">
+      <div className="mx-5 my-5 lg:my-0  lg:mt-7 lg:pt-16 text-xs font-semibold flex justify-between ">
         <p className="self-center font-semibold tracking-widest cursor-pointer ">
           About
         </p>

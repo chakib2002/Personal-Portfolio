@@ -16,8 +16,8 @@ export default function Topbar() {
           </h1>
         </div>
       </div>
-      <div className=" sm:col-span-2 flex justify-between space-x-2 bg-white rounded-full self-center pr-1 py-1 my-5 w-full sm:my-0 sm:w-auto ">
-        <div className="my-auto px-5">
+      <div className="grid grid-flow-col justify-between my-5 bg-white rounded-full ">
+        <div className="px-5 my-auto grid">
           <h1 className="text-sm text-black font-semibold">
             Abdelmalek Feddal
           </h1>
@@ -25,16 +25,14 @@ export default function Topbar() {
             Abdelmalek.feddal@gmail.com
           </p>
         </div>
-        <div className="relative w-16 h-16 ">
-          <Image
-            className="rounded-full "
-            src="/PhotoDeProfile.png"
-            alt="profile photo"
-            layout="fixed"
-            width="65"
-            height="65"
-          />
-        </div>
+        <Image
+          className="rounded-full py-2 mx-auto "
+          src="/PhotoDeProfile.png"
+          alt="profile photo"
+          layout="fixed"
+          width="65"
+          height="65"
+        />
       </div>
     </div>
   );

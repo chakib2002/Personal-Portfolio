@@ -23,7 +23,7 @@ export default function Work() {
         </p>
       </div>
       <div className="lg:hidden text-2xl mx-5 py-10 font-bold tracking-widest text-black ">
-        <span>PROJECTS</span>
+        <span>Projects</span>
       </div>
       <div className="flex justify-between mx-5 my-5 pb-5 lg:pb-0">
         <p className="tracking-widest cursor-pointer text-black font-semibold text-xs self-center">
