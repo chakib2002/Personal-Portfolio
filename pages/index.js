@@ -1,11 +1,10 @@
-import { useState } from "react";
 import Banner from "../components/Banner";
 import Topbar from "../components/Topbar";
 import Navigation from "../components/Navigation";
 
 export default function Home({ skills }) {
   return (
-    <div className="text-white bg-slate-900 h-[4000px] overflow-hidden">
+    <div className="text-white bg-slate-900 overflow-hidden">
       <Topbar />
       <Banner />
       <Navigation />

@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import { ChevronDoubleDownIcon, GlobeIcon } from "@heroicons/react/outline";
+import {
+  ChevronDoubleDownIcon,
+  GlobeIcon,
+  UserIcon,
+} from "@heroicons/react/outline";
 import style from "../../styles/About.module.css";
 
 export default function About() {
@@ -12,38 +16,27 @@ export default function About() {
       onMouseLeave={() => {
         setHover(false);
       }}
-      className="bg-blue-700 active:scale-105 lg:active:scale-100 lg:h-full rounded-3xl overflow-hidden lg:hover:scale-95 transition duration-300 ease-out cursor-pointer"
+      className="bg-blue-700 active:scale-105 lg:active:scale-100 lg:h-auto rounded-3xl overflow-hidden lg:hover:scale-95 transition duration-300 ease-out cursor-pointer"
     >
       <div className="flex justify-between mx-5 my-5">
         <p className="bg-white text-blue-700 rounded-xl py-2 px-4 shadow-lg self-center text-xs font-bold">
           Abdelmalek Feddal
         </p>
-        <div
-          className="self-center lg:hover:text-blue-700 py-2 px-2 lg:hover:bg-blue-50 rounded-full
-        transition duration-300 cursor-pointer"
-        >
-          <GlobeIcon className="h-6 w-6 " />
-        </div>
       </div>
       <div
         className={`${!hover && style.aboutTitle} 
-        hidden lg:inline-block mx-5 w-[540px] lg:text-5xl lg:w-[550px] font-bold tracking-widest my-12 `}
+        hidden lg:inline-block mx-5 w-[540px] lg:text-5xl lg:w-[550px] font-semibold tracking-widest`}
       >
         <span>LEARN MORE ABOUT THE FREELANCER</span>
       </div>
       <div className="lg:hidden text-2xl mx-5 font-bold tracking-widest ">
         <span>Learn more about the freelancer </span>
       </div>
-      <div className="mx-5 my-5 lg:my-0  lg:mt-7 lg:pt-16 text-xs font-semibold flex justify-between ">
+      <div className="mx-5 my-5 lg:my-6 text-xs font-semibold flex justify-between ">
         <p className="self-center font-semibold tracking-widest cursor-pointer ">
           About
         </p>
-        <div
-          className=" cursor-pointer py-2 px-2 self-center lg:hover:bg-blue-100 lg:hover:text-blue-700 rounded-full 
-        transition duration-300 lg:hover:animate-none"
-        >
-          <ChevronDoubleDownIcon className="h-5 w-5 opacity-70 active:opacity-100 lg:hover:opacity-100 animate-bounce lg:hover:animate-none" />
-        </div>
+        <UserIcon className="h-5 w-5 self-center" />
       </div>
     </div>
   );

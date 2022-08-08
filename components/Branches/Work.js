@@ -17,7 +17,7 @@ export default function Work() {
         <p
           className={`${
             hover ? "opacity-100" : "opacity-0"
-          } text-black text-center mx-5 pt-5 font-bold transition-opacity duration-300 ease-out text-xl`}
+          } text-black  mx-5 pt-5 font-bold transition-opacity duration-300 ease-out text-xl`}
         >
           PROJECTS
         </p>
