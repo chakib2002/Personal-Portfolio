@@ -11,13 +11,13 @@ export default function Work() {
       onMouseLeave={() => {
         setHover(false);
       }}
-      className=" bg-white rounded-3xl lg:hover:scale-95 transition duration-300 ease-out cursor-pointer"
+      className=" bg-white active:scale-105 lg:active:scale-100 rounded-3xl lg:hover:scale-95 transition duration-300 ease-out cursor-pointer"
     >
       <div className="lg:mt-20 lg:mb-12 hidden lg:inline-block">
         <p
           className={`${
             hover ? "opacity-100" : "opacity-0"
-          } text-black text-center mx-5 transition-opacity duration-300 ease-out text-xl`}
+          } text-black text-center mx-5 pt-5 font-bold transition-opacity duration-300 ease-out text-xl`}
         >
           PROJECTS
         </p>

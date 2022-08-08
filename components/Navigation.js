@@ -3,8 +3,6 @@ import About from "./Branches/About";
 import Experience from "./Branches/Experience";
 import Services from "./Branches/Services";
 import Work from "./Branches/Work";
-import Education from "./Branches/Education";
-import Contact from "./Branches/Contact";
 import Skills from "./Branches/Skills";
 
 export default function Navigation() {
@@ -22,12 +20,8 @@ export default function Navigation() {
           <Services />
         </div>
       </div>
-      <div className="lg:grid lg:grid-flow-col lg:space-x-10 lg:my-5 ">
-        <Contact />
-        <div className="lg:grid lg:grid-flow-col lg:space-x-5 ">
-          <Education />
-          <Skills />
-        </div>
+      <div className=" ">
+        <Skills />
       </div>
     </div>
   );

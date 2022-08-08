@@ -11,7 +11,7 @@ export default function Services() {
       onMouseLeave={() => {
         setHover(false);
       }}
-      className="bg-black rounded-3xl text-white lg:mt-5 lg:hover:scale-95 transition duration-300 ease-out cursor-pointer"
+      className="bg-black active:scale-105 lg:active:scale-100 rounded-3xl text-white lg:mt-5 lg:hover:scale-95 transition duration-300 ease-out cursor-pointer"
     >
       <div className="">
         <p

@@ -30,7 +30,9 @@ export default function Topbar() {
             className="rounded-full "
             src="/PhotoDeProfile.png"
             alt="profile photo"
-            layout="fill"
+            layout="fixed"
+            width="65"
+            height="65"
           />
         </div>
       </div>
