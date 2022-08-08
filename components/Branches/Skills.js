@@ -16,7 +16,7 @@ export default function Skills() {
       <div className="flex h-24">
         <p
           className={`${
-            hover ? "animate-bounce " : "animate-none"
+            hover ? "lg:animate-bounce " : "lg:animate-none"
           } lg:text-xl mx-5 lg:py-5 text-2xl font-bold lg:font-normal lg:tracking-normal tracking-widest lg:my-0 py-10 self-center`}
         >
           Tools & technologies
