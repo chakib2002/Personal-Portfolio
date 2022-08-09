@@ -23,7 +23,7 @@ a {
   width: 4px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: rgb(180 180 180);
   border-radius: 40px;
 }
 ::-webkit-scrollbar-track {
