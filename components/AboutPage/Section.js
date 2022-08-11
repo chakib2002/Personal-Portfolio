@@ -26,14 +26,14 @@ export default function Section() {
           className={`hidden cursor-pointer  md:my-36 drop-shadow-xl md:block md:relative md:w-[256px] md:h-[350px] lg:w-[270px] lg:h-[350px] my-5 lg:my-20`}
         >
           <Image
-            className="z-10 grayscale hover:grayscale-0"
+            className="z-10 grayscale hover:grayscale-0 transition duration-300 ease-out"
             src="/About.jpeg"
             alt="me"
             layout="fill"
           />
           <div
-            className={`absolute border-[3px] border-green-500 h-[350px] w-[270px] top-8 left-8 z-0
-            shadow-sm shadow-green-200 `}
+            className="absolute border-[3px] border-yellow-600 h-[350px] w-[270px] top-8 left-8 z-0
+            shadow-sm shadow-green-200"
           />
         </div>
       </div>

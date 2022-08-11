@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-export default function TopNavbar() {
+export default function Navbar() {
   return (
     <div className="flex justify-between flex-wrap text-white overflow-hidden">
       <div className="px-5 pt-5 lg:px-10 text-2xl font-bold cursor-pointer transition duration-700 active:scale-95 lg:active:scale-95 ease-out lg:hover:scale-110">
