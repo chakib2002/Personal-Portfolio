@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/AboutPage/Header";
 import Section from "../components/AboutPage/Section";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 export default function About() {
@@ -9,6 +10,7 @@ export default function About() {
       <Navbar />
       <Header />
       <Section />
+      <Footer />
     </div>
   );
 }
