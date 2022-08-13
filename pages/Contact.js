@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 export default function Contact() {
   return (
     <div className="bg-slate-900">
-      <Navbar />
+      <Navbar N_color="text-yellow-500" />
       <Header />
       <Section />
       <Footer />

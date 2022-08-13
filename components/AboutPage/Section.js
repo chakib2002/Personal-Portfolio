@@ -32,7 +32,7 @@ export default function Section() {
             layout="fill"
           />
           <div
-            className="absolute border-[3px] border-yellow-600 h-[350px] w-[270px] top-8 left-8 z-0
+            className="absolute border-[3px] border-green-500 h-[350px] w-[270px] top-8 left-8 z-0
             shadow-sm shadow-green-200"
           />
         </div>

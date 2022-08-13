@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar";
 export default function About() {
   return (
     <div className="bg-slate-900">
-      <Navbar />
+      <Navbar N_color="text-green-500" />
       <Header />
       <Section />
       <Footer />
