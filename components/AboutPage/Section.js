@@ -33,7 +33,7 @@ export default function Section() {
           />
           <div
             className="absolute border-[3px] border-green-500 h-[350px] w-[270px] top-8 left-8 z-0
-            shadow-sm shadow-green-200"
+            shadow-sm shadow-green-300"
           />
         </div>
       </div>

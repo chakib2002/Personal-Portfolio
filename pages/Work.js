@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 export default function work() {
   return (
     <div className="bg-slate-900">
-      <Navbar N_color="text-blue-500" />
+      <Navbar N_color="text-green-500" />
       <Header />
       <ProjectCardsForLargeScreen />
       <ProjectCardsForSmallScreen />
