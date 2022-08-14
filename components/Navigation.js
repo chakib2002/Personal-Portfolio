@@ -1,9 +1,9 @@
 import React from "react";
-import About from "./Branches/About";
-import Experience from "./Branches/Experience";
-import Services from "./Branches/Services";
-import Work from "./Branches/Work";
-import Skills from "./Branches/Skills";
+import About from "./Navigation/About";
+import Experience from "./Navigation/Experience";
+import Services from "./Navigation/Services";
+import Work from "./Navigation/Work";
+import Skills from "./Navigation/Skills";
 
 export default function Navigation() {
   return (
