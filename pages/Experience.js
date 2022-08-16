@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 
-import Header from "../components/ExperiencePage/Header";
 import Section from "../components/ExperiencePage/Section";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default function Experience({ result }) {
   const [jobsArray, setJobArray] = useState([]);
@@ -24,7 +24,7 @@ export default function Experience({ result }) {
   return (
     <div className=" h-auto md:h-screen bg-slate-900 ">
       <Navbar N_color="text-green-500" />
-      <Header />
+      <Header title="Where I have worked " number="2" />
       <Section
         companies={companies}
         setSelected={setSelected}

@@ -1,15 +1,17 @@
 import { ArrowLeftIcon } from "@heroicons/react/outline";
 import { useState } from "react";
-import style from "../../styles/Header.module.css";
+import style from "../styles/Header.module.css";
 
-export default function Header() {
+export default function Header({ title, number }) {
   const [hover, setHover] = useState(false);
   return (
     <div className="mx-5 lg:mx-10 mt-10  flex justify-between mb-10">
       <div className="flex space-x-3">
         <h1 className="text-white text-xl font-bold self-center tracking-widest ">
-          <span className="text-green-500 text-base font-normal">3.</span>{" "}
-          Projects I have built
+          <span className="text-green-500 text-base font-normal">
+            {number}.
+          </span>{" "}
+          {title}
         </h1>
         <div className="h-[2px] hidden md:inline-flex self-center bg-slate-800 w-[400px] lg:w-[600px]" />
       </div>

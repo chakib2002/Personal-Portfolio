@@ -5,7 +5,7 @@ import style from "../../styles/Section.module.css";
 export default function Section() {
   const [hover, setHover] = useState(false);
   return (
-    <div className="mx-5 lg:mx-10 text-white lg:grid lg:grid-cols-2 lg:justify-items-center py-10 md:space-x-5">
+    <div className="mx-5 lg:mx-10 text-white lg:grid lg:grid-cols-2 lg:justify-items-center pb-10  md:space-x-5">
       <div>
         <div className="mb-10">
           <h1 className="text-2xl font-semibold">
@@ -71,8 +71,12 @@ export default function Section() {
           layout="fill"
         />
         <div
-          className="absolute border-[3px] border-green-500 h-[350px] w-[270px] top-8 left-8 z-0
-            shadow-sm shadow-green-300"
+          className={`absolute border-[5px] border-green-500 h-[350px] w-[270px] top-8 left-8 z-0
+           transition duration-300 ease-in ${
+             hover
+               ? "-translate-x-3 -translate-y-3"
+               : "translate-x-0 translate-y-0"
+           }`}
         />
       </div>
 
