@@ -16,7 +16,7 @@ export default function Header() {
         </div>
         <div className="grid md:grid-cols-2 space-y-3 md:space-y-0 md:space-x-3  md:place-items-stretch my-5 lg:my-0">
           <div className="bg-white px-5 rounded-2xl">
-            <div className="py-5 lg:py-0 lg:pt-5">
+            <div className="py-5  ">
               <h1 className="text-slate-900 font-semibold text-sm ">Email :</h1>
               <div className="flex justify-between flex-wrap pt-1">
                 <p className="text-slate-900 text-xs ">
@@ -30,7 +30,7 @@ export default function Header() {
             </div>
           </div>
           <div className="bg-white px-5 rounded-2xl">
-            <div className="py-5 lg:py-0 lg:pt-5">
+            <div className="py-5  ">
               <h1 className="text-slate-900 font-semibold text-sm ">
                 Whatsapp :
               </h1>

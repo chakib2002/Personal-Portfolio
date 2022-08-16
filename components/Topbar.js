@@ -17,7 +17,7 @@ export default function Topbar() {
         </div>
       </div>
       <div className="grid grid-cols-1 sm:flex sm:justify-between my-5 bg-white rounded-full py-1 px-1 ">
-        <div className="px-5 my-auto grid text-center sm:text-left">
+        <div className="px-5 py-3 my-auto grid text-center sm:text-left">
           <h1 className="text-sm text-black font-semibold">
             Abdelmalek Feddal
           </h1>

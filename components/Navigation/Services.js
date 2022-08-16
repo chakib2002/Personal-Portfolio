@@ -16,7 +16,7 @@ export default function Services() {
       <div className="">
         <p
           className={`${
-            hover ? "lg:animate-pulse" : "animate-none"
+            hover ? "lg:animate-none" : "animate-none"
           } lg:text-xl mx-5 lg:py-5 text-2xl font-bold lg:font-normal lg:tracking-normal tracking-widest lg:my-0 py-10 `}
         >
           I help you choose the best options for your projects and platforms

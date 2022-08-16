@@ -5,10 +5,7 @@ import style from "../../styles/Header.module.css";
 export default function Header() {
   const [hover, setHover] = useState(false);
   return (
-    <div className="mx-5 lg:mx-10 mt-10 mb-5 flex justify-between">
-      <h1 className="text-white text-2xl font-bold self-center tracking-widest ">
-        About
-      </h1>
+    <div className="mx-5 lg:mx-10 mt-10 mb-5 flex justify-end">
       <div
         onMouseEnter={() => {
           setHover(true);

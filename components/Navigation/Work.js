@@ -15,9 +15,7 @@ export default function Work() {
     >
       <div className="lg:mt-20 lg:mb-12 hidden lg:inline-block">
         <p
-          className={`${
-            hover ? "opacity-100" : "opacity-0"
-          } text-black  mx-5 pt-5 font-bold transition-opacity duration-300 ease-out text-xl`}
+          className={` text-black  mx-5 pt-5 font-bold transition-opacity duration-300 ease-out text-xl`}
         >
           PROJECTS
         </p>

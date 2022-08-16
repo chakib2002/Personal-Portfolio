@@ -1,10 +1,21 @@
 import { ExternalLinkIcon, FolderIcon } from "@heroicons/react/outline";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 export default function SecondaryProjectCard({ title, description, tools }) {
+  const [hover, setHover] = useState(false);
   return (
-    <div className="text-white bg-slate-800 px-5 py-5 sm:mx-2 mb-5">
+    <div
+      onMouseEnter={() => {
+        setHover(true);
+      }}
+      onMouseLeave={() => {
+        setHover(false);
+      }}
+      className={`${
+        hover ? "-translate-y-3 scale-105" : ""
+      } text-white active:scale-95 active:translate-y-0 active:ease-out bg-slate-800 px-5 py-5 sm:mx-2 mb-7 transition duration-300 ease-in cursor-pointer`}
+    >
       <div className="flex justify-between mb-5">
         <FolderIcon className="h-10 w-10" />
         <div className="flex space-x-3 self-center">
@@ -19,7 +30,13 @@ export default function SecondaryProjectCard({ title, description, tools }) {
           <ExternalLinkIcon className="h-6 w-6" />
         </div>
       </div>
-      <h1 className="font-semibold my-2">{title}</h1>
+      <h1
+        className={`font-semibold my-2 transition duration-300 ease-in ${
+          hover && "text-green-500"
+        }`}
+      >
+        {title}
+      </h1>
       <p className="text-sm text-gray-100">{description}</p>
       <div className="flex flex-wrap my-5">
         {tools?.map((element, index) => (

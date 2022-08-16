@@ -5,9 +5,9 @@ import style from "../../styles/Section.module.css";
 export default function Section() {
   const [hover, setHover] = useState(false);
   return (
-    <div className="mx-5 lg:mx-10 text-white py-10 md:grid md:grid-cols-2 md:space-x-5">
+    <div className="mx-5 lg:mx-10 text-white lg:grid lg:grid-cols-2 lg:justify-items-center py-10 md:space-x-5">
       <div>
-        <div>
+        <div className="mb-10">
           <h1 className="text-2xl font-semibold">
             &quot; DO WHAT YOU LOVE AND SUCCESS WILL FOLLOW, PASSION IS THE FUEL
             BEHIND A SUCCESSFUL CAREER. &quot;
@@ -16,29 +16,8 @@ export default function Section() {
             Meg Whiteman
           </p>
         </div>
-        <div
-          onMouseEnter={() => {
-            setHover(true);
-          }}
-          onMouseLeave={() => {
-            setHover(false);
-          }}
-          className={`hidden cursor-pointer  md:my-36 drop-shadow-xl md:block md:relative md:w-[256px] md:h-[350px] lg:w-[270px] lg:h-[350px] my-5 lg:my-20`}
-        >
-          <Image
-            className="z-10 grayscale hover:grayscale-0 transition duration-300 ease-out"
-            src="/About.jpeg"
-            alt="me"
-            layout="fill"
-          />
-          <div
-            className="absolute border-[3px] border-green-500 h-[350px] w-[270px] top-8 left-8 z-0
-            shadow-sm shadow-green-300"
-          />
-        </div>
-      </div>
-      <div>
-        <div className="text-slate-300 my-10 md:my-0 text-center ">
+
+        <div className="text-slate-300 my-10 md:my-0 text-left text-sm ">
           <p className="md:indent-10  ">
             Hello!My name is Abdelmalek and I am passionate about creating
             things that live on the internet. I am currently a full stack
@@ -75,6 +54,28 @@ export default function Section() {
           </p>
         </div>
       </div>
+
+      <div
+        onMouseEnter={() => {
+          setHover(true);
+        }}
+        onMouseLeave={() => {
+          setHover(false);
+        }}
+        className={`hidden cursor-pointer  md:my-36 drop-shadow-xl md:block md:relative md:w-[256px] md:h-[350px] lg:w-[270px] lg:h-[350px] my-5 lg:my-20`}
+      >
+        <Image
+          className="z-10 grayscale hover:grayscale-0 transition duration-300 ease-out"
+          src="/About.jpeg"
+          alt="me"
+          layout="fill"
+        />
+        <div
+          className="absolute border-[3px] border-green-500 h-[350px] w-[270px] top-8 left-8 z-0
+            shadow-sm shadow-green-300"
+        />
+      </div>
+
       <div className="relative md:hidden">
         <Image
           src="/About.jpeg"

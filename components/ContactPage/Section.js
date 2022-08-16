@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Section() {
+  const [send, setSend] = useState(false);
   return (
     <div className="mx-5 lg:mx-10 py-10">
       <div className="md:grid md:grid-cols-4 md:space-x-8 place-content-stretch">
@@ -38,8 +39,17 @@ export default function Section() {
           </div>
         </div>
 
-        <button className="rounded-3xl py-5 md:py-0 w-full md:w-auto font-semibold tracking-widest my-5 md:my-0  text-center active:scale-95 lg:hover:scale-95 lg:active:scale-90 border-2 text-white transition duration-200 ease-out">
-          Send
+        <button
+          onClick={() => setSend(true)}
+          className={
+            !send
+              ? "rounded-3xl border-2 py-5 md:py-0 w-full md:w-auto font-semibold tracking-widest my-5 md:my-0  text-center active:scale-95 scale-95 lg:active:scale-90  text-white transition duration-200 ease-out"
+              : "border-none px-10 text-2xl md:text-lg xl:text-4xl text-white"
+          }
+        >
+          {send
+            ? "I will Get in touch with you as soon as possible. Have a great day !"
+            : "Send"}
         </button>
       </div>
     </div>

@@ -17,7 +17,7 @@ export default function Experience({ result }) {
     });
   }, []);
   useEffect(() => {
-    result.map((element) => {
+    result?.map((element) => {
       return setCompanies((prevArray) => [...prevArray, element.company]);
     });
   }, []);

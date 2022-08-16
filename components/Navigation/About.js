@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-import {
-  ChevronDoubleDownIcon,
-  GlobeIcon,
-  UserIcon,
-} from "@heroicons/react/outline";
+import { UserIcon } from "@heroicons/react/outline";
 import style from "../../styles/About.module.css";
+import Image from "next/image";
 
 export default function About() {
   const [hover, setHover] = useState(false);
@@ -24,13 +21,13 @@ export default function About() {
         </p>
       </div>
       <div
-        className={`${!hover && style.aboutTitle} 
+        className={` ${!hover && style.aboutTitle}
         hidden lg:inline-block mx-5 w-[540px] lg:text-5xl lg:w-[550px] font-semibold tracking-widest`}
       >
-        <span>LEARN MORE ABOUT THE FREELANCER</span>
+        <h1>About The Freelancer</h1>
       </div>
       <div className="lg:hidden text-2xl mx-5 font-bold tracking-widest ">
-        <span>Learn more about the freelancer </span>
+        <span>About The Freelancer </span>
       </div>
       <div className="mx-5 my-5 lg:my-6 text-xs font-semibold flex justify-between ">
         <p className="self-center font-semibold tracking-widest cursor-pointer ">

@@ -1,13 +1,7 @@
 @keyframes about-title {
-  0% {
-    transform: translateX(110%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
 }
 
 .aboutTitle > * {
   display: inline-block;
-  animation: about-title 6s infinite linear;
+  animation: about-title 6s;
 }
