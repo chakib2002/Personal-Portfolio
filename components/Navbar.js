@@ -54,14 +54,16 @@ export default function Navbar({ N_color }) {
           <span className={`${N_color}`}>4. </span> Skills
         </div>
 
-        <div
-          className={`${
-            currentRoute === "/Services" && "bg-slate-800"
-          } cursor-pointer lg:hover:bg-slate-800 lg:px-3 lg:py-2 rounded-xl transition duration-300 ease-out active:scale-95`}
-        >
-          {" "}
-          <span className={`${N_color}`}> 5.</span> Services
-        </div>
+        <Link href="/Services">
+          <div
+            className={`${
+              currentRoute === "/Services" && "bg-slate-800"
+            } cursor-pointer lg:hover:bg-slate-800 lg:px-3 lg:py-2 rounded-xl transition duration-300 ease-out active:scale-95`}
+          >
+            {" "}
+            <span className={`${N_color}`}> 5.</span> Services
+          </div>
+        </Link>
       </div>
       <div className="mx-5 lg:mx-10 self-end space-x-5 lg:pt-0.5">
         <div className="inline">
