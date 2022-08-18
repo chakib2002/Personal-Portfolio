@@ -1,32 +1,14 @@
-import { ArrowLeftIcon } from "@heroicons/react/outline";
-import { useState } from "react";
-import style from "../styles/Header.module.css";
+import { ArrowDownIcon, ArrowLeftIcon } from "@heroicons/react/outline";
 
-export default function Header({ title, number }) {
-  const [hover, setHover] = useState(false);
+export default function Header({ title, question }) {
   return (
-    <div className="mx-5 lg:mx-10 mt-10  flex justify-between mb-10">
-      <div className="flex space-x-3">
-        <h1 className="text-white text-xl font-bold self-center tracking-widest ">
-          <span className="text-green-500 text-base font-normal">
-            {number}.
-          </span>{" "}
-          {title}
-        </h1>
-        <div className="h-[2px] hidden md:inline-flex self-center bg-slate-800 w-[400px] lg:w-[600px]" />
-      </div>
-      <div
-        onMouseEnter={() => {
-          setHover(true);
-        }}
-        onMouseLeave={() => {
-          setHover(false);
-        }}
-        className="px-2 py-2 self-center border-2 rounded-full my-2 cursor-pointer overflow-hidden active:scale-75 active:opacity-0 transition duration-100 ease-out"
-      >
-        <ArrowLeftIcon
-          className={` ${hover ? style.ArrowLeftIcon : ""} h-4 w-4 text-white `}
-        />
+    <div className="mx-5 lg:mx-10 py-16">
+      <h1 className="text-green-500 text-lg tracking-wide pb-5">{question}</h1>
+      <p className="text-3xl md:text-5xl lg:text-7xl font-bold text-white">
+        {title}
+      </p>
+      <div className="flex justify-end mt-10">
+        <ArrowDownIcon className="w-6 h-6 lg:h-8 lg:w-8 text-slate-500 animate-bounce cursor-pointer lg:hover:text-slate-50 transition duration-300 ease-out " />
       </div>
     </div>
   );

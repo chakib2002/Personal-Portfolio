@@ -22,9 +22,12 @@ export default function Experience({ result }) {
     });
   }, []);
   return (
-    <div className=" h-auto md:h-screen bg-slate-900 ">
+    <div className=" h-auto bg-slate-900 ">
       <Navbar N_color="text-green-500" />
-      <Header title="Where I have worked " number="2" />
+      <Header
+        title="Working at multiple organizations and companies gain me my Skill Set."
+        question="Where I have worked"
+      />
       <Section
         companies={companies}
         setSelected={setSelected}
@@ -32,7 +35,7 @@ export default function Experience({ result }) {
         jobsArray={jobsArray}
       />
 
-      <div className="mt-10 md:absolute md:w-full md:bottom-0">
+      <div className="mt-28 ">
         <Footer />
       </div>
     </div>

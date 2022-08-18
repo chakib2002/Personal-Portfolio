@@ -9,7 +9,10 @@ export default function About() {
   return (
     <div className="bg-slate-900">
       <Navbar N_color="text-green-500" />
-      <Header title="Learn more about me" number="1" />
+      <Header
+        title="I am an international web developer freelancer based in Algeria."
+        question="Who I am"
+      />
       <Section />
       <Footer />
     </div>
