@@ -45,14 +45,16 @@ export default function Navbar({ N_color }) {
           </div>
         </Link>
 
-        <div
-          className={`${
-            currentRoute === "/Skills" && "bg-slate-800"
-          } cursor-pointer lg:hover:bg-slate-800 lg:px-3 lg:py-2 rounded-xl transition duration-300 ease-out active:scale-95`}
-        >
-          {" "}
-          <span className={`${N_color}`}>4. </span> Skills
-        </div>
+        <Link href="Skills">
+          <div
+            className={`${
+              currentRoute === "/Skills" && "bg-slate-800"
+            } cursor-pointer lg:hover:bg-slate-800 lg:px-3 lg:py-2 rounded-xl transition duration-300 ease-out active:scale-95`}
+          >
+            {" "}
+            <span className={`${N_color}`}>4. </span> Skills
+          </div>
+        </Link>
 
         <Link href="/Services">
           <div
