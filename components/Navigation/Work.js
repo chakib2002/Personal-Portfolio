@@ -14,7 +14,7 @@ export default function Work() {
         onMouseLeave={() => {
           setHover(false);
         }}
-        className={`${style.Work} bg-white active:scale-105 lg:active:scale-0
+        className={`${style.Work} bg-white active:scale-105 lg:active:scale-75
         active:duration-300 active:ease-linear rounded-3xl lg:hover:scale-95 transition duration-300 ease-out cursor-pointer`}
       >
         <div className="lg:mt-20 lg:mb-12 hidden lg:inline-block">

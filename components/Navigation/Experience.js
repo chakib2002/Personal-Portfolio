@@ -14,7 +14,7 @@ export default function Experience() {
         onMouseLeave={() => {
           setHover(false);
         }}
-        className={`${style.ExperienceTitle} bg-yellow-400 active:scale-105 lg:active:scale-0
+        className={`${style.ExperienceTitle} bg-yellow-400 active:scale-105 lg:active:scale-75
         active:duration-300 active:ease-linear my-5 lg:my-0 rounded-3xl lg:hover:scale-95 transition duration-300 ease-out cursor-pointer overflow-hidden`}
       >
         <div
