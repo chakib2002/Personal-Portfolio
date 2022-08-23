@@ -1,0 +1,12 @@
+@keyframes Work-title {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.Work {
+  animation: Work-title 1s;
+}

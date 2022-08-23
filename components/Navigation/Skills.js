@@ -1,6 +1,7 @@
 import { BookOpenIcon } from "@heroicons/react/outline";
 import Link from "next/link";
 import React, { useState } from "react";
+import style from "../../styles/Skills.module.css";
 
 export default function Skills() {
   const [hover, setHover] = useState(false);
@@ -13,7 +14,8 @@ export default function Skills() {
         onMouseLeave={() => {
           setHover(false);
         }}
-        className="bg-white text-black active:scale-105 lg:active:scale-100 lg:h-auto rounded-3xl overflow-hidden lg:hover:scale-95 transition duration-300 ease-out cursor-pointer "
+        className={`${style.Skill} bg-white text-black active:scale-105 lg:active:scale-0
+        active:duration-300 active:ease-linear lg:h-auto rounded-3xl overflow-hidden lg:hover:scale-95 transition duration-300 ease-out cursor-pointer `}
       >
         <div className="flex h-24">
           <p

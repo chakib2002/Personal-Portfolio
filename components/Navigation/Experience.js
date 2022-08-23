@@ -14,10 +14,13 @@ export default function Experience() {
         onMouseLeave={() => {
           setHover(false);
         }}
-        className="bg-yellow-400 active:scale-105 lg:active:scale-100 my-5 lg:my-0 rounded-3xl lg:hover:scale-95 transition duration-300 ease-out cursor-pointer overflow-hidden"
+        className={`${style.ExperienceTitle} bg-yellow-400 active:scale-105 lg:active:scale-0
+        active:duration-300 active:ease-linear my-5 lg:my-0 rounded-3xl lg:hover:scale-95 transition duration-300 ease-out cursor-pointer overflow-hidden`}
       >
-        <div className="mt-24 mb-8 hidden lg:inline-block">
-          <p className="text-black text-xl pb-4 lg:text-2xl mx-5 lg:font-bold">
+        <div
+          className={`${style.ExperienceTitle} mt-24 mb-8 hidden lg:inline-block overflow-hidden `}
+        >
+          <p className="text-black text-xl pb-4 lg:text-2xl mx-5 lg:font-bold  ">
             Professional Experience
           </p>
         </div>

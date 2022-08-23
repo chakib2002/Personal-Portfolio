@@ -3,7 +3,11 @@ import SecondaryProjectCard from "./SecondaryProjectCard.js";
 
 export default function SecondaryProjectCards() {
   return (
-    <div>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-anchor-placement="top-center"
+    >
       <h1 className="font-semibold  lg:tracking-widest mt-24 text-white text-2xl text-center ">
         Other Noteworthy Projects
       </h1>

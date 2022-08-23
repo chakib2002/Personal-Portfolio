@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-
+import style from "../../styles/Page.module.css";
 export default function Section() {
   const [send, setSend] = useState(false);
   return (
-    <div className="mx-5 lg:mx-10 py-10">
+    <div className={`mx-5 lg:mx-10 py-10 ${style.page_animation}`}>
       <div className="md:grid md:grid-cols-4 md:space-x-8 place-content-stretch">
         <div className="col-span-3">
           <div className="grid space-y-5 md:space-y-0 md:grid-cols-3 md:space-x-5">

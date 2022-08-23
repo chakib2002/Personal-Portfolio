@@ -1,11 +1,17 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import style from "../../styles/Section.module.css";
+import styles from "../../styles/Page.module.css";
 
 export default function Section() {
   const [hover, setHover] = useState(false);
   return (
-    <div className="mx-5 lg:mx-10 text-white lg:grid lg:grid-cols-2 lg:justify-items-center pb-10  md:space-x-5">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1500"
+      data-aos-anchor-placement="top-center"
+      className={`mx-5 lg:mx-10 text-white lg:grid lg:grid-cols-2 lg:justify-items-center pb-10  md:space-x-5`}
+    >
       <div>
         <div className="mb-10">
           <h1 className="text-2xl font-semibold">

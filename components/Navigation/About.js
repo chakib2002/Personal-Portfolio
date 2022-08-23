@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { UserIcon } from "@heroicons/react/outline";
 import style from "../../styles/About.module.css";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function About() {
@@ -15,7 +14,7 @@ export default function About() {
         onMouseLeave={() => {
           setHover(false);
         }}
-        className="bg-blue-700 active:scale-105 lg:active:scale-100 lg:h-auto rounded-3xl overflow-hidden lg:hover:scale-95 transition duration-300 ease-out cursor-pointer"
+        className={`${style.aboutTitle} bg-blue-700 active:scale-105 lg:active:scale-0 lg:h-auto rounded-3xl overflow-hidden lg:hover:scale-95 transition duration-300 active:duration-300 active:ease-linear ease-in cursor-pointer`}
       >
         <div className="flex justify-between mx-5 my-5">
           <p className="bg-white text-blue-700 rounded-xl py-2 px-4 shadow-lg self-center text-xs font-bold">
@@ -23,13 +22,13 @@ export default function About() {
           </p>
         </div>
         <div
-          className={` ${!hover && style.aboutTitle}
+          className={` ${style.aboutTitle}
         hidden lg:inline-block mx-5 w-[540px] lg:text-5xl lg:w-[550px] font-semibold tracking-widest`}
         >
-          <h1>About The Freelancer</h1>
+          <h1>Learn More About The Freelancer</h1>
         </div>
         <div className="lg:hidden text-2xl mx-5 font-bold tracking-widest ">
-          <span>About The Freelancer </span>
+          <span>Learn More About The Freelancer</span>
         </div>
         <div className="mx-5 my-5 lg:my-6 text-xs font-semibold flex justify-between ">
           <p className="self-center font-semibold tracking-widest cursor-pointer ">

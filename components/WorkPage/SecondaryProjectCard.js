@@ -12,9 +12,7 @@ export default function SecondaryProjectCard({ title, description, tools }) {
       onMouseLeave={() => {
         setHover(false);
       }}
-      className={`${
-        hover ? "-translate-y-3 scale-105" : ""
-      } text-white active:scale-95 active:translate-y-0 active:ease-out bg-slate-800 px-5 py-5 sm:mx-2 mb-7 transition duration-300 ease-in cursor-pointer`}
+      className={` text-white active:scale-95 active:translate-y-0 active:ease-out bg-slate-800 px-5 py-5 sm:mx-2 mb-7 transition duration-300 ease-in cursor-pointer`}
     >
       <div className="flex justify-between mb-5">
         <FolderIcon className="h-10 w-10" />

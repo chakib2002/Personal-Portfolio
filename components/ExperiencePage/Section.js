@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Job from "./Job";
 import JobTask from "../../components/ExperiencePage/JobTask";
+import style from "../../styles/Page.module.css";
 
 export default function Section({
   companies,
@@ -30,7 +31,12 @@ export default function Section({
   }, [selected]);
 
   return (
-    <div className="grid space-y-5 md:grid md:grid-flow-col md:space-y-0 md:space-x-8 lg:w-[600px] mx-5 lg:mx-auto">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1500"
+      data-aos-anchor-placement="top-center"
+      className={` grid space-y-5 md:grid md:grid-flow-col md:space-y-0 md:space-x-8 lg:w-[600px] mx-5 lg:mx-auto`}
+    >
       <div className="">
         <Job
           companies={companies}

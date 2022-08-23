@@ -2,12 +2,14 @@ import Image from "next/image";
 import React from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-
+import style from "../styles/Page.module.css";
 export default function Navbar({ N_color }) {
   const router = useRouter();
   const currentRoute = router.pathname;
   return (
-    <div className="flex justify-between flex-wrap text-white overflow-hidden">
+    <div
+      className={`${style.page_animation} flex justify-between flex-wrap text-white overflow-hidden`}
+    >
       <Link href="/">
         <div className="px-5 pt-5 lg:px-10 text-2xl font-bold cursor-pointer transition duration-700 active:scale-95 lg:active:scale-95 ease-out lg:hover:scale-110">
           <span className="text-sm font-bold pl-5 block">The</span>CoderMan

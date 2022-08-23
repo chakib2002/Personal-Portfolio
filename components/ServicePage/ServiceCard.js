@@ -8,7 +8,12 @@ export default function ServiceCard({
   text,
 }) {
   return (
-    <div className="bg-[#0B0F1A]  text-white flex flex-wrap-reverse md:grid  md:grid-flow-col  md:space-x-10 rounded-3xl mx-5 lg:mx-10 ">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="500"
+      data-aos-anchor-placement="top-center"
+      className="bg-[#0B0F1A]  text-white flex flex-wrap-reverse md:grid  md:grid-flow-col  md:space-x-10 rounded-3xl mx-5 lg:mx-10 "
+    >
       <div className="px-5 py-16 ">
         <div className="flex justify-between text-white">
           <h1 className="mb-5 font-semibold">{title}</h1>

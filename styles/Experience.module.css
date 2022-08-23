@@ -1,13 +1,12 @@
 @keyframes experience-title {
   0% {
-    transform: translateX(120%);
+    opacity: 0;
   }
   100% {
-    transform: translateX(-120%);
+    opacity: 1;
   }
 }
 
 .ExperienceTitle {
-  display: inline-block;
-  animation: experience-title 3s infinite linear;
+  animation: experience-title 1s;
 }

@@ -1,0 +1,12 @@
+@keyframes pageAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.page_animation {
+  animation: pageAnimation 1s;
+}

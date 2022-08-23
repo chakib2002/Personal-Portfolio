@@ -1,9 +1,9 @@
 import React from "react";
 import { DuplicateIcon, ExternalLinkIcon } from "@heroicons/react/outline";
-
+import style from "../../styles/Page.module.css";
 export default function Header() {
   return (
-    <div className="mx-5 lg:mx-10 text-white">
+    <div className={`mx-5 lg:mx-10 text-white ${style.page_animation}`}>
       <h1 className="my-10 text-lg font-semibold inline-block mb-3">
         Get In Touch!
       </h1>

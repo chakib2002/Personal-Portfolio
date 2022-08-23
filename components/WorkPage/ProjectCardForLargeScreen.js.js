@@ -1,6 +1,7 @@
 import { LinkIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import React from "react";
+import style from "../../styles/Page.module.css";
 
 export default function ProjectCardForLargeScreen({
   tools,
@@ -11,7 +12,7 @@ export default function ProjectCardForLargeScreen({
   photo,
 }) {
   return (
-    <div className="mx-5 lg:mx-10 text-white ">
+    <div className={`mx-5 lg:mx-10 text-white `}>
       {rev ? (
         <div className=" flex justify-center space-x-5">
           <div className="relative h-[300px] w-[600px]">

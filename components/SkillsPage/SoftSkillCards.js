@@ -45,6 +45,7 @@ export default function SoftSkillCards() {
         image="/Engagement.png"
         stars={5}
       />
+      {/** ---------------------------------------- */}
     </div>
   );
 }

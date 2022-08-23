@@ -1,7 +1,12 @@
 @keyframes about-title {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.aboutTitle > * {
-  display: inline-block;
-  animation: about-title 6s;
+.aboutTitle {
+  animation: about-title 1s;
 }
