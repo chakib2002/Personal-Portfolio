@@ -10,7 +10,12 @@ export default function ProjectCardForSmallScreen({
   photo,
 }) {
   return (
-    <div className="mx-5 relative border-2 border-slate-800 text-white rounded-xl overflow-hidden md:hidden">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1500"
+      data-aos-anchor-placement="top-center"
+      className="mx-5 relative border-2 border-slate-800 text-white rounded-xl overflow-hidden md:hidden"
+    >
       <Image
         src={`/${photo}`}
         alt="project photo"

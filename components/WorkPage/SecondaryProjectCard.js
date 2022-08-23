@@ -6,6 +6,8 @@ export default function SecondaryProjectCard({ title, description, tools }) {
   const [hover, setHover] = useState(false);
   return (
     <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
       onMouseEnter={() => {
         setHover(true);
       }}
@@ -18,14 +20,14 @@ export default function SecondaryProjectCard({ title, description, tools }) {
         <FolderIcon className="h-10 w-10" />
         <div className="flex space-x-3 self-center">
           <Image
-            className="mt-2"
+            className="mt-2 lg:hover:scale-90 active:scale-75 lg:active:scale-75 transition duration-300 ease-out"
             src="/github.png"
             width="21"
             height="21"
             layout="fixed"
             alt="github"
           />
-          <ExternalLinkIcon className="h-6 w-6" />
+          <ExternalLinkIcon className="h-6 w-6 lg:hover:scale-90 active:scale-75 lg:active:scale-75 transition duration-300 ease-out" />
         </div>
       </div>
       <h1

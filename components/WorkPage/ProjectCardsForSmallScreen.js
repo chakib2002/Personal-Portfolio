@@ -3,12 +3,7 @@ import ProjectCardForSmallScreen from "./ProjectCardForSmallScreen.js";
 
 export default function ProjectCardsForSmallScreen() {
   return (
-    <div
-      data-aos="fade-up"
-      data-aos-duration="1500"
-      data-aos-anchor-placement="top-center"
-      className="space-y-5"
-    >
+    <div className="space-y-5">
       <ProjectCardForSmallScreen
         type="For Production Project"
         title="The CodeMan shop"

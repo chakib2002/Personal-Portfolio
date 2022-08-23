@@ -12,7 +12,12 @@ export default function ProjectCardForLargeScreen({
   photo,
 }) {
   return (
-    <div className={`mx-5 lg:mx-10 text-white `}>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1500"
+      data-aos-anchor-placement="top-center"
+      className={`mx-5 lg:mx-10 text-white `}
+    >
       {rev ? (
         <div className=" flex justify-center space-x-5">
           <div className="relative h-[300px] w-[600px]">

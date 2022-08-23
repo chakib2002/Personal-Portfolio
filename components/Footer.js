@@ -3,7 +3,7 @@ import style from "../styles/Page.module.css";
 
 export default function Footer() {
   return (
-    <div className={`${style.page_animation}mx-5 lg:mx-10  border-t `}>
+    <div className={`${style.page_animation} mx-5 lg:mx-10  border-t `}>
       <div className="flex justify-between space-x-3  flex-wrap py-5">
         <div className=" text-white flex space-x-2 py-2">
           <svg
