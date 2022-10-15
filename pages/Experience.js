@@ -35,7 +35,7 @@ export default function Experience({ result }) {
         jobsArray={jobsArray}
       />
 
-      <div className="mt-28 ">
+      <div className="mt-40 ">
         <Footer />
       </div>
     </div>

@@ -5,25 +5,35 @@ export default function ProjectCardsForLargeScreen() {
   return (
     <div className="hidden md:block space-y-16 mt-10">
       <ProjectCardForLargeScreen
-        description=" A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
-          and more. Available on Visual Studio Marketplace, Package Control,
-          Atom  Package Manager, and npm."
-        title="The CodeMan shop"
-        type="For Production Project"
-        tools={["NextJS", "NodeJS", "Express", "Stripe", "MYSQL"]}
+        description="Managili is a platform that helps E-commercers create web pages for their products and host them online, also it manages their orders and sells automatically from a dashboard ."
+        title="Managili"
+        type="For Production Purposes"
+        tools={["TypeScript", "NextJS", "MySQL", "Prisma", "trcp", "WebSockets"]}
         rev={true}
-        photo="Hulu1.png"
+        photo="Managili.png"
+        color='text-green-500'
+        bg={'bg-green-700'}
       />
       <ProjectCardForLargeScreen
-        description=" A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm,
-          and more. Available on Visual Studio Marketplace, Package Control,
-          Atom  Package Manager, and npm."
-        title="The CodeMan shop"
-        type="For Production Project"
-        tools={["NextJS", "NodeJS", "Express", "Stripe", "MYSQL"]}
+        description="Aiutami is a platform that helps Individual Housekeepers, Tutors and Senior caregivers connects with clients and get hired ."
+        title="Aiutami"
+        type="For Portfolio Purposes"
+        tools={["JavaScript", "React JS", "Node js", "Express js", "MySQL", "Sequelize","Redis" ]}
         rev={false}
-        photo="airbnb.png"
+        photo="aiutami.png"
+        color='text-green-500'
+        bg='bg-green-700'
       />
+        <ProjectCardForLargeScreen
+          description="Backend code of a platform that connects Individual transporters with clients in need for a package transportation ."
+          title="Delivery Project"
+          type="For Portfolio Purposes"
+          tools={[ "Node js", "Express js", "MySQL", "Restfull API", "Authentication", "Authorization", "Types Validation"]}          rev={true}
+          photo="deliveryProject.png"
+          color='text-green-500'
+          bg='bg-green-700'
+        />
+
     </div>
   );
 }

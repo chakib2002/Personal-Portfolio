@@ -13,33 +13,33 @@ export default function SecondaryProjectCards() {
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mx-10 my-10">
         <SecondaryProjectCard
-          title="E-commerce shop dashboard"
-          description="It means that somewhere in your code, you are calling a function which in turn calls another function and so forth, until you hit the call stack limit."
-          tools={["Javascript", "Express", "ReactJS", "NodeJs", "MySQL"]}
+          title="Hulu landing page clone"
+          description="Mobile Responsive clone of Hulu, it fetches data from TMDb API and display it in diffrent categories .Besides, it shows the release date of each movie while hovering over it." 
+          tools={["Next js", "Tailwind css", "Responsive css" ]}
         />
         <SecondaryProjectCard
-          title="Spotify clone2.0"
-          description="It means that somewhere in your code, you are calling a function which in turn calls another function and so forth, until you hit the call stack limit."
-          tools={["Javascript", "Express", "ReactJS", "NodeJs", "MySQL"]}
+          title="Fullstack Session based Authentication"
+          description="Session based authentication using passport js on the backend ."
+          tools={['React js', 'node js', 'Express js', 'Passport js', "SQL"]}
+        />
+        <SecondaryProjectCard
+          title="Advanced Dashboard"
+          description="E-commerce dashboard template that shows statistics of the sales using complicated ui components such as Lines, Areas, Bars & pies."
+          tools={["React js", "Tailwind css", "Syncfusion ej2", "Responsive Design"]}
         />
         <SecondaryProjectCard
           title="Airbnb clone"
-          description="It means that somewhere in your code, you are calling a function which in turn calls another function and so forth, until you hit the call stack limit."
+          description="A simple and mobile responsive Airbnb clone where users can introduce their vacation dates & location on the search bar and get results for the best houses in the city. "
           tools={["Javascript", "Express", "ReactJS", "NodeJs", "MySQL"]}
         />
         <SecondaryProjectCard
-          title="Hulu clone"
-          description="It means that somewhere in your code, you are calling a function which in turn calls another function and so forth, until you hit the call stack limit."
-          tools={["Javascript", "Express", "ReactJS", "NodeJs", "MySQL"]}
+          title="Spotify2.0"
+          description=""
+          tools={["Spotify api"]}
         />
         <SecondaryProjectCard
-          title="Back end of a transportation platform"
-          description="It means that somewhere in your code, you are calling a function which in turn calls another function and so forth, until you hit the call stack limit."
-          tools={["Javascript", "Express", "ReactJS", "NodeJs", "MySQL"]}
-        />
-        <SecondaryProjectCard
-          title="Full stack Authentication"
-          description="It means that somewhere in your code, you are calling a function which in turn calls another function and so forth, until you hit the call stack limit."
+          title="E-store Landing page"
+          description="A simple and mobile responsive e-commerce store landing page ."
           tools={["Javascript", "Express", "ReactJS", "NodeJs", "MySQL"]}
         />
       </div>

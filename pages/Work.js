@@ -17,7 +17,9 @@ export default function work() {
       <ProjectCardsForLargeScreen />
       <ProjectCardsForSmallScreen />
       <SecondaryProjectCards />
-      <ShowMoreButton />
+     {
+      // <ShowMoreButton />
+     }
       <Footer />
     </div>
   );

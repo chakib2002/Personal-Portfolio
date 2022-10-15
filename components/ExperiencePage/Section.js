@@ -14,9 +14,10 @@ export default function Section({
     dateRange: "April 2021 - February 2022",
     company: "Yassir",
     Tasks: [
-      "Engineered and maintained the back end of major features for yassir Express Mobile App ",
-      "Interfaced with user experience designers and other developers to ensure thoughtful and coherent user experiences across Yassir's iOS and Android mobile apps",
-      "Communicate with different teams of engineers, designers and Managers on a daily basis. ",
+      "Backend engineer member with Yassir Express development team.",
+      "Developed and maintained major features for Yassir Express Mobile App.",
+      "Interfaced with ux/ui designers and other developers to ensure thoughtful and coherent user experiences across Yassir's iOS and Android mobile apps.",
+      "Communicate with different teams of engineers, designers and Managers on a daily basis. "
     ],
   });
 
@@ -35,7 +36,7 @@ export default function Section({
       data-aos="fade-up"
       data-aos-duration="1500"
       data-aos-anchor-placement="top-center"
-      className={` grid space-y-5 md:grid md:grid-flow-col md:space-y-0 md:space-x-8 lg:w-[600px] mx-5 lg:mx-auto`}
+      className={` md:h-60 grid space-y-5 md:grid md:grid-flow-col md:space-y-0 md:space-x-8 lg:w-[600px] mx-5 lg:mx-auto`}
     >
       <div className="">
         <Job
