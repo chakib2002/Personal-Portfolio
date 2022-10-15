@@ -1,7 +1,5 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import style from "../../styles/Section.module.css";
-import styles from "../../styles/Page.module.css";
 
 export default function Section() {
   const [hover, setHover] = useState(false);
@@ -28,36 +26,50 @@ export default function Section() {
             Hello!My name is Abdelmalek and I am passionate about creating
             things that live on the internet. I am currently a full stack
             freelancer web developer experienced in building (and occasionally
-            design) both startup and consumer web applications .{" "}
+            designing) single-page web applications using the latest technologies such as :{" "}
           </p>
-          <div className="h-6" />
+          <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 ml-5 gap-1 mt-2 list-disc">
+            <li>Next js</li>
+            <li>React js</li>
+            <li>Javascript</li>
+            <li>Typescript</li>
+            <li>Node js</li>
+            <li>Express js</li>
+          </ul>
+        
           <p className="md:indent-10">
-            My interest in tech and computer science started back in 2017
-            inspired and motivated to create softwares that can help make a
-            positive impact in people&apos;s lives .So, I decided to join an
-            international organization of education, exchange and development
-            World Learning as a computer science student where I met incredible
-            mentors who helped me build up my technical and soft skills .Shortly
-            afterwards, I was accepted to participate in an Exchange Program
-            offered by the US Government where I studied Leadership and
-            Entrepreneurship at the university of Reno, in Nevada USA . Back
-            from the United States I worked on social projects that made a
-            positive change in my community. I was a volunteer Operation Manager
-            at Micro club together with a volunteer mentor of Electronics and
-            coding at the Algiers STEM Center and a member at an environment
-            association Plogging in Algeria where we worked to raise awareness
-            about environmental pollution .
+            {
+              /**
+                My interest in tech and computer science started back in 2017
+                inspired and motivated to create softwares that can help make a
+                positive impact in people&apos;s lives .So, I decided to join an
+                international organization of education, exchange and development
+                World Learning as a computer science student where I met incredible
+                mentors who helped me build up my technical and soft skills .Shortly
+                afterwards, I was accepted to participate in an Exchange Program
+                offered by the US Government where I studied Leadership and
+                Entrepreneurship at the university of Reno, in Nevada USA . Back
+                from the United States I worked on social projects that made a
+                positive change in my community. I was a volunteer Operation Manager
+                at Micro club together with a volunteer mentor of Electronics and
+                coding at the Algiers STEM Center and a member at an environment
+                association Plogging in Algeria where we worked to raise awareness
+                about environmental pollution .
+               */
+            }
           </p>
           <div className="h-6" />
           <p className="md:indent-10">
             {" "}
-            Fast-forward to today, I had the privilege to work as a software
-            engineer for an Uber company for almost a year and I am proud of how
-            I helped the company grow. Now I am interested in working as a
-            freelancer on diver projects, and solve my clients problems
-            depending on their needs by implementing the best solutions and
-            using the latest technologies .{" "}
-          </p>
+            I had the privilege to work as a software
+            engineer for <span className="hover:underline text-green-500 cursor-pointer"> an Uber company </span> for almost a year and I am proud of how
+            I helped the company grow using the experience I gained from being an operation Manager at  <span className="hover:underline text-green-500 cursor-pointer"> Micro club </span>, 
+            a professional Mentor at <span className="hover:underline text-green-500 cursor-pointer"> Algiers STEM Center </span> and an exchange program alumni at <span className="hover:underline text-green-500 cursor-pointer">the us embassy in Algiers</span> .
+            </p>
+            <p className="md:indent-10 my-3">
+              Now I am interested in working as a
+              freelancer on diver projects, and solve my clients problems depending on their needs by implementing the best solutions and using the latest technologies .{" "}
+            </p>
         </div>
       </div>
 
