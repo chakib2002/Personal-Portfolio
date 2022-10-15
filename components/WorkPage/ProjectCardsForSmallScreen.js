@@ -19,11 +19,11 @@ export default function ProjectCardsForSmallScreen() {
            photo="aiutami.png"
       />
        <ProjectCardForSmallScreen
-          description="Mobile Responsive clone of Hulu, it fetches data from TMDb API and display it in diffrent categories .Besides, it shows the release date of each movie while hovering over it."
-          title="Hulu landing page clone"
-          type="For Portfolio Purposes"
-          tools={["Next js", "Tailwind css", "Responsive css" ]}
-          photo="Hulu1.png"
+           description="Backend code of a platform that connects Individual transporters with clients in need for a package transportation ."
+           title="Delivery Project"
+           type="For Portfolio Purposes"
+           tools={[ "Node js", "Express js", "MySQL", "Restfull API", "Authentication", "Authorization", "Types Validation"]}          rev={true}
+           photo="deliveryProject.png"
       />
       
     </div>
