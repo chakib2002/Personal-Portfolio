@@ -1,8 +1,8 @@
-import { ExternalLinkIcon, FolderIcon } from "@heroicons/react/outline";
+import { ExternalLinkIcon, FolderIcon, LinkIcon } from "@heroicons/react/outline";
 import Image from "next/image";
 import React, { useState } from "react";
 
-export default function SecondaryProjectCard({ title, description, tools }) {
+export default function SecondaryProjectCard({ title, description, tools, code, externals, site }) {
   const [hover, setHover] = useState(false);
   return (
     <div
@@ -19,15 +19,47 @@ export default function SecondaryProjectCard({ title, description, tools }) {
       <div className="flex justify-between mb-5">
         <FolderIcon className="h-10 w-10" />
         <div className="flex space-x-3 self-center">
-          <Image
-            className="mt-2 lg:hover:scale-90 active:scale-75 lg:active:scale-75 transition duration-300 ease-out"
-            src="/github.png"
-            width="21"
-            height="21"
-            layout="fixed"
-            alt="github"
-          />
-          <ExternalLinkIcon className="h-6 w-6 lg:hover:scale-90 active:scale-75 lg:active:scale-75 transition duration-300 ease-out" />
+        {
+                externals === 0 && (
+                  <>
+                  <a href={code} target={'_blank'}>
+                    <Image
+                      className="cursor-pointer active:scale-90 transition duration-300 ease-out"
+                      src="/github.png"
+                      alt="discord"
+                      width="20"
+                      height="20"
+                      layout="fixed"
+                    />
+                  </a>
+                  <a href={site} target={'_blank'}>
+                    <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+                  </a>
+                  </>
+                )
+              }
+
+              {
+                externals === 1 && (
+                  <a href={code} target={'_blank'}>
+                    <Image
+                      className="cursor-pointer active:scale-90 transition duration-300 ease-out"
+                      src="/github.png"
+                      alt="discord"
+                      width="20"
+                      height="20"
+                      layout="fixed"
+                    />
+                  </a>
+                )
+              }
+              {
+                externals ===2 && (
+                 <a href={site} target={'_blank'}>
+                   <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+                 </a>
+                )
+              }
         </div>
       </div>
       <h1

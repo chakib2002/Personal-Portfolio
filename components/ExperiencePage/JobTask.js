@@ -13,9 +13,38 @@ export default function JobTask({
       <div>
         <h1 className="text-xl font-semibold">
           {title}{" "}
-          <span className="text-green-400 font-normal text-xl lg:hover:underline lg:hover:underline-offset-4 cursor-pointer">
-            @{company}
-          </span>
+          {
+            company === "Yassir" &&
+            <a href="https://yassir.com/en/home/" target={'_blank'}>
+              <span className="text-green-400 font-normal text-xl lg:hover:underline lg:hover:underline-offset-4 cursor-pointer">
+                @{company}
+              </span>
+            </a>
+          }
+          {
+             company === "Micro Club" &&
+             <a href="https://www.facebook.com/Micro.Club.USTHB" target={'_blank'}>
+               <span className="text-green-400 font-normal text-xl lg:hover:underline lg:hover:underline-offset-4 cursor-pointer">
+                 @{company}
+               </span>
+             </a>
+          }
+          {
+            company === "STEM Center" &&
+            <a href="https://www.worldlearning.org/program/algiers-stem-center/" target={'_blank'}>
+              <span className="text-green-400 font-normal text-xl lg:hover:underline lg:hover:underline-offset-4 cursor-pointer">
+                @{company}
+              </span>
+            </a>
+          }
+          {
+            company === "US Embassy" &&
+            <a href="https://dz.usembassy.gov/" target={'_blank'}>
+              <span className="text-green-400 font-normal text-xl lg:hover:underline lg:hover:underline-offset-4 cursor-pointer">
+                @{company}
+              </span>
+            </a>
+          }
         </h1>
         <p className="text-xs text-gray-300 my-5">{dateRange}</p>
         <div className="space-y-5 ">

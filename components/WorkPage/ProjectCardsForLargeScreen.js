@@ -3,7 +3,11 @@ import ProjectCardForLargeScreen from "./ProjectCardForLargeScreen.js";
 
 export default function ProjectCardsForLargeScreen() {
   return (
-    <div className="hidden md:block space-y-16 mt-10">
+    <div 
+      data-aos="fade-up"
+      data-aos-duration="1500"
+      data-aos-anchor-placement="top-center"
+      className="hidden md:block space-y-16 mt-10">
       <ProjectCardForLargeScreen
         description="Managili is a platform that helps E-commercers create web pages for their products and host them online, also it manages their orders and sells automatically from a dashboard ."
         title="Managili"
@@ -13,6 +17,8 @@ export default function ProjectCardsForLargeScreen() {
         photo="Managili.png"
         color='text-green-500'
         bg={'bg-green-700'}
+        externals ={1}
+        code={'https://github.com/chakib2002/Managili'}
       />
       <ProjectCardForLargeScreen
         description="Aiutami is a platform that helps Individual Housekeepers, Tutors and Senior caregivers connects with clients and get hired ."
@@ -23,6 +29,8 @@ export default function ProjectCardsForLargeScreen() {
         photo="aiutami.png"
         color='text-green-500'
         bg='bg-green-700'
+        externals={1}
+        code={'https://github.com/chakib2002/aiutami-backend-node-js'}
       />
         <ProjectCardForLargeScreen
           description="Backend code of a platform that connects Individual transporters with clients in need for a package transportation ."
@@ -32,6 +40,8 @@ export default function ProjectCardsForLargeScreen() {
           photo="deliveryProject.png"
           color='text-green-500'
           bg='bg-green-700'
+          externals={1}
+          code='https://github.com/chakib2002/Delivery-project-Backend-.git'
         />
 
     </div>

@@ -11,13 +11,13 @@ export default function ProjectCardForLargeScreen({
   rev,
   photo,
   color,
-  bg
+  bg,
+  code,
+  site,
+  externals
 }) {
   return (
     <div
-      data-aos="fade-up"
-      data-aos-duration="1500"
-      data-aos-anchor-placement="top-center"
       className={`mx-5 lg:mx-10 text-white `}
     >
       {rev ? (
@@ -48,16 +48,41 @@ export default function ProjectCardForLargeScreen({
               })}
             </div>
             <div className="flex space-x-3 mt-10">
-              <Image
-                className="cursor-pointer active:scale-90 transition duration-300 ease-out"
-                src="/github.png"
-                alt="discord"
-                width="20"
-                height="20"
-                layout="fixed"
-              />
+              {
+                externals === 0 && (
+                  <>
+                    <Image
+                      className="cursor-pointer active:scale-90 transition duration-300 ease-out"
+                      src="/github.png"
+                      alt="discord"
+                      width="20"
+                      height="20"
+                      layout="fixed"
+                    />
+                    <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+                  </>
+                )
+              }
 
-              <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+              {
+                externals === 1 && (
+                  <a href={code} target={'_blank'}>
+                    <Image
+                      className="cursor-pointer active:scale-90 transition duration-300 ease-out"
+                      src="/github.png"
+                      alt="discord"
+                      width="20"
+                      height="20"
+                      layout="fixed"
+                    />
+                  </a>
+                )
+              }
+              {
+                externals ===2 && (
+                  <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+                )
+              }
             </div>
           </div>
         </div>
@@ -79,16 +104,41 @@ export default function ProjectCardForLargeScreen({
               })}
             </div>
             <div className="flex space-x-3 mt-10 justify-end">
-              <Image
-                className="cursor-pointer active:scale-90 transition duration-300 ease-out"
-                src="/github.png"
-                alt="discord"
-                width="20"
-                height="20"
-                layout="fixed"
-              />
+            {
+                externals === 0 && (
+                  <>
+                    <Image
+                      className="cursor-pointer active:scale-90 transition duration-300 ease-out"
+                      src="/github.png"
+                      alt="discord"
+                      width="20"
+                      height="20"
+                      layout="fixed"
+                    />
+                    <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+                  </>
+                )
+              }
 
-              <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+              {
+                externals === 1 && (
+                  <a href={code} target={'_blank'}>
+                    <Image
+                      className="cursor-pointer active:scale-90 transition duration-300 ease-out"
+                      src="/github.png"
+                      alt="discord"
+                      width="20"
+                      height="20"
+                      layout="fixed"
+                    />
+                  </a>
+                )
+              }
+              {
+                externals ===2 && (
+                  <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+                )
+              }
             </div>
           </div>
           <div className="h-[300px] w-[600px]">

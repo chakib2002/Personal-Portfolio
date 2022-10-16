@@ -10,6 +10,8 @@ export default function ProjectCardsForSmallScreen() {
         type="For Production Purposes"
         tools={["TypeScript", "NextJS", "MySQL", "Prisma", "trcp", "WebSockets"]}
         photo="Managili.png"
+        externals={1}
+        code='https://github.com/chakib2002/Managili'
       />
       <ProjectCardForSmallScreen
            description="Aiutami is a platform that helps Individual Housekeepers, Tutors and Senior caregivers connects with clients and get hired ."
@@ -17,6 +19,8 @@ export default function ProjectCardsForSmallScreen() {
            type="For Portfolio Purposes"
            tools={["JavaScript", "React JS", "Node js", "Express js", "MySQL", "Sequelize","Redis" ]}
            photo="aiutami.png"
+           externals={1}
+           code='https://github.com/chakib2002/aiutami-backend-node-js'
       />
        <ProjectCardForSmallScreen
            description="Backend code of a platform that connects Individual transporters with clients in need for a package transportation ."
@@ -24,6 +28,8 @@ export default function ProjectCardsForSmallScreen() {
            type="For Portfolio Purposes"
            tools={[ "Node js", "Express js", "MySQL", "Restfull API", "Authentication", "Authorization", "Types Validation"]}          rev={true}
            photo="deliveryProject.png"
+           externals={1}
+           code='https://github.com/chakib2002/Delivery-project-Backend-.git'
       />
       
     </div>

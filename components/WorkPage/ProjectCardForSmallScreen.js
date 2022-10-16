@@ -8,6 +8,9 @@ export default function ProjectCardForSmallScreen({
   description,
   tools,
   photo,
+  code,
+  site,
+  externals
 }) {
   return (
     <div
@@ -38,16 +41,47 @@ export default function ProjectCardForSmallScreen({
           })}
         </div>
         <div className="flex space-x-3 mt-10">
-          <Image
-            className="cursor-pointer active:scale-90 transition duration-300 ease-out"
-            src="/github.png"
-            alt="discord"
-            width="20"
-            height="20"
-            layout="fixed"
-          />
+        {
+                externals === 0 && (
+                  <>
+                  <a href={code} target={'_blank'}>
+                    <Image
+                      className="cursor-pointer active:scale-90 transition duration-300 ease-out"
+                      src="/github.png"
+                      alt="discord"
+                      width="20"
+                      height="20"
+                      layout="fixed"
+                    />
+                  </a>
+                  <a href={site} target={'_blank'}>
+                    <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+                  </a>
+                  </>
+                )
+              }
 
-          <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+              {
+                externals === 1 && (
+                  <a href={code} target={'_blank'}>
+                    <Image
+                      className="cursor-pointer active:scale-90 transition duration-300 ease-out"
+                      src="/github.png"
+                      alt="discord"
+                      width="20"
+                      height="20"
+                      layout="fixed"
+                    />
+                  </a>
+                )
+              }
+              {
+                externals ===2 && (
+                 <a href={site} target={'_blank'}>
+                   <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+                 </a>
+                )
+              }
         </div>
       </div>{" "}
     </div>

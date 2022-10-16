@@ -14,7 +14,7 @@ export default function Section({
     dateRange: "April 2021 - February 2022",
     company: "Yassir",
     Tasks: [
-      "Backend engineer member with Yassir Express development team.",
+      "Full stack engineer member with Yassir Express development team.",
       "Developed and maintained major features for Yassir Express Mobile App.",
       "Interfaced with ux/ui designers and other developers to ensure thoughtful and coherent user experiences across Yassir's iOS and Android mobile apps.",
       "Communicate with different teams of engineers, designers and Managers on a daily basis. "
