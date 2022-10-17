@@ -81,7 +81,7 @@ export default function Navbar({ N_color }) {
           />
         </div>
         <div className="inline">
-          <a href="https://github.com/chakib2002" target={'_blank'}>
+          <a href="https://github.com/chakib2002" target={'_blank'} rel="noreferrer">
             <Image
               className="cursor-pointer active:scale-90 transition duration-300 ease-out"
               src="/github.png"

@@ -63,9 +63,9 @@ export default function Section() {
           <p className="md:indent-10">
             {" "}
             I had the privilege to work as a software
-            engineer for <a href={'https://yassir.com/en/home/'}  target='_blank'> <span className="hover:underline text-green-500 cursor-pointer"> an Uber like company </span> </a> for almost a year and I am proud of how
-            I helped the company grow using the experience I gained from being an operation Manager at <a href="https://www.facebook.com/Micro.Club.USTHB" target={'_blank'}>  <span className="hover:underline text-green-500 cursor-pointer"> Micro club </span>,  </a>
-            a professional Mentor at <a href="https://www.worldlearning.org/program/algiers-stem-center/" target={'_blank'} > <span className="hover:underline text-green-500 cursor-pointer"> Algiers STEM Center </span> </a> and an exchange program alumni at <a href="https://dz.usembassy.gov/" target={'_blank'}><span className="hover:underline text-green-500 cursor-pointer">the us embassy in Algiers</span> </a> .
+            engineer for <a href={'https://yassir.com/en/home/'}  target='_blank'  rel="noreferrer"> <span className="hover:underline text-green-500 cursor-pointer"> an Uber like company </span> </a> for almost a year and I am proud of how
+            I helped the company grow using the experience I gained from being an operation Manager at <a href="https://www.facebook.com/Micro.Club.USTHB" target={'_blank'} rel="noreferrer">  <span className="hover:underline text-green-500 cursor-pointer"> Micro club </span>,  </a>
+            a professional Mentor at <a href="https://www.worldlearning.org/program/algiers-stem-center/" target={'_blank'} rel="noreferrer"> <span className="hover:underline text-green-500 cursor-pointer"> Algiers STEM Center </span> </a> and an exchange program alumni at <a href="https://dz.usembassy.gov/" target={'_blank'} rel="noreferrer"><span className="hover:underline text-green-500 cursor-pointer">the us embassy in Algiers</span> </a> .
             </p>
             <p className="md:indent-10 my-3">
               Now I am interested in working as a

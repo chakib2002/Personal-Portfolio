@@ -66,7 +66,7 @@ export default function ProjectCardForLargeScreen({
 
               {
                 externals === 1 && (
-                  <a href={code} target={'_blank'}>
+                  <a href={code} target={'_blank'} rel="noreferrer">
                     <Image
                       className="cursor-pointer active:scale-90 transition duration-300 ease-out"
                       src="/github.png"

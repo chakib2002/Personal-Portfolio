@@ -22,7 +22,7 @@ export default function SecondaryProjectCard({ title, description, tools, code, 
         {
                 externals === 0 && (
                   <>
-                  <a href={code} target={'_blank'}>
+                  <a href={code} target={'_blank'} rel="noreferrer">
                     <Image
                       className="cursor-pointer active:scale-90 transition duration-300 ease-out"
                       src="/github.png"
@@ -32,7 +32,7 @@ export default function SecondaryProjectCard({ title, description, tools, code, 
                       layout="fixed"
                     />
                   </a>
-                  <a href={site} target={'_blank'}>
+                  <a href={site} target={'_blank'} rel="noreferrer">
                     <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
                   </a>
                   </>
@@ -41,7 +41,7 @@ export default function SecondaryProjectCard({ title, description, tools, code, 
 
               {
                 externals === 1 && (
-                  <a href={code} target={'_blank'}>
+                  <a href={code} target={'_blank'} rel="noreferrer">
                     <Image
                       className="cursor-pointer active:scale-90 transition duration-300 ease-out"
                       src="/github.png"
@@ -55,7 +55,7 @@ export default function SecondaryProjectCard({ title, description, tools, code, 
               }
               {
                 externals ===2 && (
-                 <a href={site} target={'_blank'}>
+                 <a href={site} target={'_blank'} rel="noreferrer">
                    <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
                  </a>
                 )

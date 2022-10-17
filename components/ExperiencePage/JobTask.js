@@ -15,7 +15,7 @@ export default function JobTask({
           {title}{" "}
           {
             company === "Yassir" &&
-            <a href="https://yassir.com/en/home/" target={'_blank'}>
+            <a href="https://yassir.com/en/home/" target={'_blank'} rel="noreferrer">
               <span className="text-green-400 font-normal text-xl lg:hover:underline lg:hover:underline-offset-4 cursor-pointer">
                 @{company}
               </span>
@@ -23,7 +23,7 @@ export default function JobTask({
           }
           {
              company === "Micro Club" &&
-             <a href="https://www.facebook.com/Micro.Club.USTHB" target={'_blank'}>
+             <a href="https://www.facebook.com/Micro.Club.USTHB" target={'_blank'} rel="noreferrer">
                <span className="text-green-400 font-normal text-xl lg:hover:underline lg:hover:underline-offset-4 cursor-pointer">
                  @{company}
                </span>
@@ -31,7 +31,7 @@ export default function JobTask({
           }
           {
             company === "STEM Center" &&
-            <a href="https://www.worldlearning.org/program/algiers-stem-center/" target={'_blank'}>
+            <a href="https://www.worldlearning.org/program/algiers-stem-center/" target={'_blank'} rel="noreferrer">
               <span className="text-green-400 font-normal text-xl lg:hover:underline lg:hover:underline-offset-4 cursor-pointer">
                 @{company}
               </span>
@@ -39,7 +39,7 @@ export default function JobTask({
           }
           {
             company === "US Embassy" &&
-            <a href="https://dz.usembassy.gov/" target={'_blank'}>
+            <a href="https://dz.usembassy.gov/" target={'_blank'} rel="noreferrer">
               <span className="text-green-400 font-normal text-xl lg:hover:underline lg:hover:underline-offset-4 cursor-pointer">
                 @{company}
               </span>
