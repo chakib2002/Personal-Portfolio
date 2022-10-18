@@ -7,17 +7,30 @@ import Skills from "./Navigation/Skills";
 
 export default function Navigation() {
   return (
-    <div className="mx-10 my-16">
-      <div className="lg:grid lg:grid-cols-2 lg:space-x-5 ">
+    <div className="mx-10 my-16 ">
+      <div className="lg:hidden">
         <div className="space-y-5">
           <About />
           <Skills />
         </div>
         <div className="">
-          <div className="lg:grid lg:grid-flow-col lg:space-x-5 ">
+          <div className="">
             <Experience />
             <Work />
           </div>
+          <Services />
+        </div>
+      </div>
+      <div className="hidden lg:block space-y-4">
+        <div className="grid grid-cols-2 gap-4">
+          <About />
+          <div className="grid grid-cols-2 gap-4">
+            <Experience />
+            <Work />
+          </div>
+        </div>
+        <div className="grid grid-cols-2 gap-4">
+          <Skills />
           <Services />
         </div>
       </div>

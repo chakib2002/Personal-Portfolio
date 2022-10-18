@@ -15,7 +15,7 @@ export default function Services() {
           setHover(false);
         }}
         className={`${style.Services} bg-black active:scale-105 lg:active:scale-75
-        active:duration-300 active:ease-linear rounded-3xl text-white lg:mt-5 lg:hover:scale-95 transition duration-300 ease-out cursor-pointer`}
+        active:duration-300 active:ease-linear rounded-3xl text-white lg:hover:scale-95 transition duration-300 ease-out cursor-pointer`}
       >
         <div className="">
           <p

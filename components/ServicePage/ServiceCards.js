@@ -9,41 +9,43 @@ import ServiceCard from "./ServiceCard";
 
 export default function ServiceCards() {
   return (
-    <div className="space-y-5 md:space-y-3">
+    <div 
+   
+    className="space-y-5 md:space-y-3">
       <ServiceCard
-        title="Lorem Ipsum generators"
-        description="All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
+        title="Adding features to existing projects"
+        description="Whether you're adding new features aimed at driving business growth or simply updating your site's aesthetic appeal, I will provide you with appealing solutions developed by skills and passion . "
         Icon={<CodeIcon className="h-6 w-6  text-white" />}
-        header="many variations of passages"
-        text="Majority have suffered alteration in some making this the first true form"
+        header="I am an expert at "
+        text="Updating codebases"
       />
       <ServiceCard
-        title="We Take care of the Resources"
-        description="The Internet tend to repeat predefined chunks all the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
+        title="Start to finish platforms"
+        description="Create a highly-functional and user-friendly low-code visual design solution, easy to enable simple integration with hundreds of services and meet my client's requirements ."
         Icon={<DownloadIcon className="h-6 w-6  text-white" />}
-        header="many variations of passages"
-        text="Majority have suffered alteration in some making this the first true form"
+        header="It will be developed"
+        text="with skills and passion"
       />
       <ServiceCard
-        title="Lorem Ipsum generators"
-        description="All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
+        title="Fast Support"
+        description="I aim to be as available and supportive as I can to my clients. Feel free to use the form below or contact me directly with questions or requests. "
         Icon={<BriefcaseIcon className="h-6 w-6  text-white" />}
-        header="many variations of passages"
-        text="Majority have suffered alteration in some making this the first true form"
+        header="I am always"
+        text="Happy to help"
       />
       <ServiceCard
-        title="On the Internet tend "
-        description="All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
+        title="Provide clients with stunning solutions & guidance "
+        description="I make sure to communicate clearly with my clients and understand their requirements to implement the best possible solutions via online meetings ."
         Icon={<CodeIcon className="h-6 w-6  text-white" />}
-        header="many variations of passages"
-        text="Majority have suffered alteration in some making this the first true form"
+        header="As a software engineer"
+        text="Finding solutions is what I do"
       />
       <ServiceCard
-        title="Lorem Ipsum generators"
-        description="All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
+        title="SEO"
+        description="Using my expertise along with handy tools I strive for a high SEO score, ensuring higher visibility on search sites such as Google. "
         Icon={<SunIcon className="h-6 w-6  text-white" />}
-        header="many variations of passages"
-        text="Majority have suffered alteration in some making this the first true form"
+        header=" With my SEO knowledge"
+        text="You will be seen"
       />
     </div>
   );

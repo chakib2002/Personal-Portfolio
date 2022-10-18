@@ -85,12 +85,15 @@ export default function Section() {
       >
         <Image
           className="z-10 grayscale hover:grayscale-0 transition duration-300 ease-out"
-          src="/About.jpeg"
+          width="1858"
+          height="2487"
+          layout="responsive"
+          src="/Me.jpg"
           alt="me"
-          layout="fill"
+          
         />
         <div
-          className={`absolute border-[5px] border-green-500 h-[350px] w-[270px] top-8 left-8 z-0
+          className={`absolute border-[5px] border-green-500 h-[360px] w-[270px] top-8 left-8 z-0
            transition duration-300 ease-in ${
              hover
                ? "-translate-x-3 -translate-y-3"
@@ -101,11 +104,10 @@ export default function Section() {
 
       <div className="relative md:hidden">
         <Image
-          src="/About.jpeg"
+          src="/Me.jpg"
           alt="me"
-          width="256"
-          height="350"
-          layout="responsive"
+          width="1858"
+          height="2487"
         />
       </div>
     </div>

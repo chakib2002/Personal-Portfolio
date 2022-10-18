@@ -30,7 +30,7 @@ export default function About() {
         <div className="lg:hidden text-2xl mx-5 font-bold tracking-widest ">
           <span>Learn More About The Freelancer</span>
         </div>
-        <div className="mx-5 my-5 lg:my-6 text-xs font-semibold flex justify-between ">
+        <div className="mx-5 my-5 lg:my-6 lg:mt-16 text-xs font-semibold flex justify-between ">
           <p className="self-center font-semibold tracking-widest cursor-pointer ">
             About
           </p>

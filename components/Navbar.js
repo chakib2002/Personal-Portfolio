@@ -8,14 +8,14 @@ export default function Navbar({ N_color }) {
   const currentRoute = router.pathname;
   return (
     <div
-      className={`${style.page_animation} flex justify-between flex-wrap text-white overflow-hidden`}
+      className={`${style.page_animation} flex justify-between text-white overflow-hidden`}
     >
       <Link href="/">
-        <div className="px-5 pt-5 lg:px-10 text-2xl font-bold cursor-pointer transition duration-700 active:scale-95 lg:active:scale-95 ease-out lg:hover:scale-110">
-          <span className="text-sm font-bold pl-5 block">The</span>CoderMan
+        <div className="px-5 pt-5 lg:px-10 w-64 text-lg font-bold cursor-pointer transition duration-700 active:scale-95 lg:active:scale-95 ease-out lg:hover:scale-110">
+          <span className="text-xs font-bold block">Hey, I am</span>A full stack web developer
         </div>
       </Link>
-      <div className="hidden md:flex md:justify-between md:space-x-5 md:self-end md:pb-2 lg:pb-0">
+      <div className="hidden lg:flex lg:justify-between lg:space-x-5 lg:self-center lg:pb-0">
         <Link href="/About">
           <div
             className={`${
@@ -69,17 +69,21 @@ export default function Navbar({ N_color }) {
           </div>
         </Link>
       </div>
-      <div className="mx-5 lg:mx-10 self-end space-x-5 lg:pt-0.5">
-        <div className="inline">
-          <Image
-            className="cursor-pointer active:scale-90 transition duration-300 ease-out"
-            src="/discord.png"
-            alt="discord"
-            width="25"
-            height="25"
-            layout="fixed"
-          />
-        </div>
+      <div className="mx-5 lg:mx-10 self-center space-x-5 md:pt-2">
+        {
+          /**
+           <div className="inline">
+            <Image
+              className="cursor-pointer active:scale-90 transition duration-300 ease-out"
+              src="/discord.png"
+              alt="discord"
+              width="25"
+              height="25"
+              layout="fixed"
+            />
+          </div>
+           */
+        }
         <div className="inline">
           <a href="https://github.com/chakib2002" target={'_blank'} rel="noreferrer">
             <Image

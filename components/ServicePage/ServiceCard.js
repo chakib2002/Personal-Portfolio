@@ -9,9 +9,9 @@ export default function ServiceCard({
 }) {
   return (
     <div
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-anchor-placement="top-center"
+    data-aos="fade-up"
+    data-aos-duration="1000"
+    data-aos-anchor-placement="top-center"
       className="bg-[#0B0F1A]  text-white flex flex-wrap-reverse md:grid  md:grid-flow-col  md:space-x-10 rounded-3xl mx-5 lg:mx-10 "
     >
       <div className="px-5 py-16 ">
@@ -22,7 +22,7 @@ export default function ServiceCard({
         <p className="text-slate-400 text-sm font-light">{description}</p>
       </div>
 
-      <div className="relative bg-gray-400 rounded-3xl shadow-xl text-slate-900 md:w-[300px] lg:w-[500px]   ">
+      <div className="relative w-full bg-gray-400 rounded-3xl shadow-xl text-slate-900 md:w-[300px] lg:w-[500px]   ">
         <div className="py-16">
           <h1 className="text-center mx-10 mb-5 font-light ">{header}</h1>
           <p className="text-center mx-10 text-xl font-semibold ">{text}</p>
