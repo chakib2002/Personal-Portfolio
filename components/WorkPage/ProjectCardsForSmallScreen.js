@@ -10,8 +10,6 @@ export default function ProjectCardsForSmallScreen() {
         type="For Production Purposes"
         tools={["TypeScript", "NextJS", "MySQL", "Prisma", "trcp", "WebSockets"]}
         photo="Managili.png"
-        externals={1}
-        code='https://github.com/chakib2002/Managili'
       />
       <ProjectCardForSmallScreen
            description="Aiutami is a platform that helps Individual Housekeepers, Tutors and Senior caregivers connects with clients and get hired ."

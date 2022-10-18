@@ -69,7 +69,7 @@ export default function Section() {
             </p>
             <p className="md:indent-10 my-3">
               Now I am interested in working as a
-              freelancer on diver projects, and solve my clients problems depending on their needs by implementing the best solutions and using the latest technologies .{" "}
+              freelancer on various projects, and solving my clients problems depending on their needs by implementing the best solutions and using the latest technologies .{" "}
             </p>
         </div>
       </div>

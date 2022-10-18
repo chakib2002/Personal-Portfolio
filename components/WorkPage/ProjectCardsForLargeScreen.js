@@ -17,8 +17,6 @@ export default function ProjectCardsForLargeScreen() {
         photo="Managili.png"
         color='text-green-500'
         bg={'bg-green-700'}
-        externals ={1}
-        code={'https://github.com/chakib2002/Managili'}
       />
       <ProjectCardForLargeScreen
         description="Aiutami is a platform that helps Individual Housekeepers, Tutors and Senior caregivers connects with clients and get hired ."
