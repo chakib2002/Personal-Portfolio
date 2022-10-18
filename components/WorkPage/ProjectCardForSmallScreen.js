@@ -31,7 +31,7 @@ export default function ProjectCardForSmallScreen({
         <p className="text-blue-500 text-sm ">{type}</p>
         <h1 className="my-3 text-lg font-semibold">{title}</h1>
         <p className=" text-gray-300 mb-10">{description}</p>
-        <div className="flex space-x-5 flex-wrap">
+        <div className="flex gap-5 flex-wrap">
           {tools?.map((e, i) => {
             return (
               <p key={i} className="text-sm">
