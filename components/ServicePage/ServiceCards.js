@@ -35,7 +35,7 @@ export default function ServiceCards() {
       />
       <ServiceCard
         title="Provide clients with stunning solutions & guidance "
-        description="I make sure to communicate clearly with my clients and understand their requirements to implement the best possible solutions via online meetings ."
+        description="I make sure to communicate clearly with my clients and understand their requirements via online meetings to implement the best possible solutions."
         Icon={<CodeIcon className="h-6 w-6  text-white" />}
         header="As a software engineer"
         text="Finding solutions is what I do"

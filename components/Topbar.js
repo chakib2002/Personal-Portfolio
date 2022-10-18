@@ -6,7 +6,7 @@ import style from "../styles/Skills.module.css";
 export default function Topbar() {
   return (
     <div
-      className={`${style.Skill} px-10 py-5 grid grid-cols-1 sm:flex sm:justify-between `}
+      className={`${style.Skill} px-5 py-5 grid grid-cols-1 sm:flex sm:justify-between `}
     >
       <div className="flex justify-between sm:space-x-16 sm:justify-start">
         <h1 className="text-xs font-semibold self-center">

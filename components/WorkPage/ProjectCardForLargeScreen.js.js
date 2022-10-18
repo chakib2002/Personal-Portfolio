@@ -38,7 +38,7 @@ export default function ProjectCardForLargeScreen({
             <p className={`opacity-80 px-8 py-5 text-sm relative md:right-20 my-5 w-[450px] ${bg}`}>
               {description}
             </p>
-            <div className="flex space-x-5 flex-wrap">
+            <div className="flex gap-3 flex-wrap">
               {tools?.map((e, i) => {
                 return (
                   <p key={i} className="text-sm">
