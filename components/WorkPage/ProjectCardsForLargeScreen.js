@@ -11,7 +11,7 @@ export default function ProjectCardsForLargeScreen() {
       <ProjectCardForLargeScreen
         description="Managili is a platform that helps E-commercers create web pages for their products and host them online, also it manages their orders and sells automatically from a dashboard ."
         title="Managili"
-        type="For Production Purposes"
+        type="For Production Purposes & in progress"
         tools={["TypeScript", "NextJS", "MySQL", "Prisma", "trcp", "WebSockets"]}
         rev={true}
         photo="Managili.png"
