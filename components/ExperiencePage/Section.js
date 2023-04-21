@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Job from "./Job";
 import JobTask from "../../components/ExperiencePage/JobTask";
-import style from "../../styles/Page.module.css";
 
 export default function Section({
   companies,
@@ -17,7 +16,7 @@ export default function Section({
       "Full stack engineer member with Yassir Express development team.",
       "Developed and maintained major features for Yassir Express Mobile App.",
       "Interfaced with ux/ui designers and other developers to ensure thoughtful and coherent user experiences across Yassir's iOS and Android mobile apps.",
-      "Communicate with different teams of engineers, designers and Managers on a daily basis. "
+      "Communicate with different teams of engineers, designers and Managers on a daily basis. ",
     ],
   });
 

@@ -6,7 +6,7 @@ import style from "../styles/Skills.module.css";
 export default function Topbar() {
   return (
     <div
-      className={`${style.Skill} px-5 py-5 grid grid-cols-1 sm:flex sm:justify-between `}
+      className={`${style.Skill} px-5 lg:px-10 py-5 grid grid-cols-1 sm:flex sm:justify-between `}
     >
       <div className="flex justify-between sm:space-x-16 sm:justify-start">
         <h1 className="text-xs font-semibold self-center">
@@ -28,8 +28,7 @@ export default function Topbar() {
             Abdelmalek.feddal@worldlearningalgeria.org
           </p>
         </div>
-        {
-          /**
+        {/**
            * <div className="hidden sm:inline-flex self-center">
           <Image
             className="rounded-full py-2 pr-2 my-auto self-center "
@@ -40,8 +39,7 @@ export default function Topbar() {
             height="60"
           />
         </div>
-           */
-        }
+           */}
       </div>
     </div>
   );

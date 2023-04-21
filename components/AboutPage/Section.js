@@ -27,7 +27,8 @@ export default function Section() {
             Hello!My name is Abdelmalek and I am passionate about creating
             things that live on the internet. I am currently a full stack
             freelancer web developer experienced in building (and occasionally
-            designing) single-page web applications using the latest technologies such as :{" "}
+            designing) single-page web applications using the latest
+            technologies such as :{" "}
           </p>
           <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 ml-5 gap-1 mt-2 list-disc">
             <li>Next js</li>
@@ -37,10 +38,9 @@ export default function Section() {
             <li>Node js</li>
             <li>Express js</li>
           </ul>
-        
+
           <p className="md:indent-10">
-            {
-              /**
+            {/**
                 My interest in tech and computer science started back in 2017
                 inspired and motivated to create softwares that can help make a
                 positive impact in people&apos;s lives .So, I decided to join an
@@ -56,21 +56,75 @@ export default function Section() {
                 coding at the Algiers STEM Center and a member at an environment
                 association Plogging in Algeria where we worked to raise awareness
                 about environmental pollution .
-               */
-            }
+               */}
           </p>
           <div className="h-6" />
           <p className="md:indent-10">
             {" "}
-            I had the privilege to work as a software
-            engineer for <a href={'https://yassir.com/en/home/'}  target='_blank'  rel="noreferrer"> <span className="hover:underline text-green-500 cursor-pointer"> an Uber like company </span> </a> for almost a year and I am proud of how
-            I helped the company grow using the experience I gained from being an operation Manager at <a href="https://www.facebook.com/Micro.Club.USTHB" target={'_blank'} rel="noreferrer">  <span className="hover:underline text-green-500 cursor-pointer"> Micro club </span>,  </a>
-            a professional Mentor at <a href="https://www.worldlearning.org/program/algiers-stem-center/" target={'_blank'} rel="noreferrer"> <span className="hover:underline text-green-500 cursor-pointer"> Algiers STEM Center </span> </a> and an exchange program alumni at <a href="https://dz.usembassy.gov/" target={'_blank'} rel="noreferrer"><span className="hover:underline text-green-500 cursor-pointer">the us embassy in Algiers</span> </a> .
-            </p>
-            <p className="md:indent-10 my-3">
-              Now I am interested in working as a
-              freelancer on various projects, and solving my clients problems depending on their needs by implementing the best solutions and using the latest technologies .{" "}
-            </p>
+            I had the privilege to work as a software engineer for{" "}
+            <a
+              href={"https://yassir.com/en/home/"}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              <span className="hover:underline text-green-500 cursor-pointer">
+                {" "}
+                an Uber like company{" "}
+              </span>{" "}
+            </a>{" "}
+            for almost a year and I am proud of how I helped the company grow
+            using the experience I gained from being an operation Manager at{" "}
+            <a
+              href="https://www.facebook.com/Micro.Club.USTHB"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              {" "}
+              <span className="hover:underline text-green-500 cursor-pointer">
+                {" "}
+                Micro club{" "}
+              </span>
+              ,{" "}
+            </a>
+            a professional Mentor at{" "}
+            <a
+              href="https://www.worldlearning.org/program/algiers-stem-center/"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              {" "}
+              <span className="hover:underline text-green-500 cursor-pointer">
+                {" "}
+                Algiers STEM Center{" "}
+              </span>{" "}
+            </a>{" "}
+            and an exchange program alumni at{" "}
+            <a
+              href="https://dz.usembassy.gov/"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <span className="hover:underline text-green-500 cursor-pointer">
+                the us embassy in Algiers
+              </span>{" "}
+            </a>{" "}
+            .
+          </p>
+          <p className="md:indent-10 my-3">
+            Now I founded{" "}
+            <a href="https://managili.com/" target={"_blank"} rel="noreferrer">
+              <span className="hover:underline text-green-500 cursor-pointer">
+                managili
+              </span>{" "}
+            </a>
+            which is a platform designed especially for e-commercers in Algeria
+            to create their own online stores, manage their orders and
+            synchronize them with a delivery company of their choice. And I am
+            interested in working as a freelancer on various projects, and
+            solving my clients problems depending on their needs by implementing
+            the best solutions and using the latest technologies .{" "}
+          </p>
         </div>
       </div>
 
@@ -90,7 +144,6 @@ export default function Section() {
           layout="responsive"
           src="/Me.jpg"
           alt="me"
-          
         />
         <div
           className={`absolute border-[5px] border-green-500 h-[360px] w-[270px] top-8 left-8 z-0
@@ -103,12 +156,7 @@ export default function Section() {
       </div>
 
       <div className="relative md:hidden">
-        <Image
-          src="/Me.jpg"
-          alt="me"
-          width="1858"
-          height="2487"
-        />
+        <Image src="/Me.jpg" alt="me" width="1858" height="2487" />
       </div>
     </div>
   );
