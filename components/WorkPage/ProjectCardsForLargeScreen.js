@@ -10,7 +10,7 @@ export default function ProjectCardsForLargeScreen() {
       className="hidden md:block space-y-16 mt-10"
     >
       <ProjectCardForLargeScreen
-        description="Managili is a platform that offers e-commercers the ability to generate landing pages for each of their products with ease, requiring only a single click, and enabling their clients to purchase items effortlessly. Moreover, businesses can effortlessly manage and monitor their orders on this platform. We have successfully synchronized Managili "
+        description="Managili is a platform that offers e-commercers the ability to generate landing pages for each of their products with ease, requiring only a single click, businesses can effortlessly manage and monitor their orders on this platform. and it is synchronized with multiple delivery companies ."
         title="Managili"
         type="Company"
         tools={[
