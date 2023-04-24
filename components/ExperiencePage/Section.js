@@ -9,14 +9,16 @@ export default function Section({
   jobsArray,
 }) {
   const [roles, setRoles] = useState({
-    title: "Engineer",
-    dateRange: "April 2021 - February 2022",
-    company: "Yassir",
+    title: "Founder",
+    dateRange: "April 2023",
+    company: "Managili",
     Tasks: [
-      "Full stack engineer member with Yassir Express development team.",
-      "Developed and maintained major features for Yassir Express Mobile App.",
-      "Interfaced with ux/ui designers and other developers to ensure thoughtful and coherent user experiences across Yassir's iOS and Android mobile apps.",
-      "Communicate with different teams of engineers, designers and Managers on a daily basis. ",
+      "Developers lead of the project",
+      "UI/UX of the platform",
+      "Developed the frontend of the platform using NextJS/Typescript",
+      "Payment integration using Stripe payment",
+      "Database design and API architecture ",
+      "Worked and collaborated with multiple delivery companies during the development of the project to create new apis route in order synchronize both companies together",
     ],
   });
 

@@ -9,7 +9,9 @@ export default function Home() {
       <Topbar />
       <Banner />
       <Navigation />
-      <Footer />
+     <div className=" mt-24">
+     <Footer />
+     </div>
     </div>
   );
 }

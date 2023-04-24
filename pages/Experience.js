@@ -9,7 +9,7 @@ import Header from "../components/Header";
 export default function Experience({ result }) {
   const [jobsArray, setJobArray] = useState([]);
   const [companies, setCompanies] = useState([]);
-  const [selected, setSelected] = useState("Yassir");
+  const [selected, setSelected] = useState("Managili");
 
   useEffect(() => {
     result?.map((element) => {
@@ -35,7 +35,7 @@ export default function Experience({ result }) {
         jobsArray={jobsArray}
       />
 
-      <div className="mt-40 ">
+      <div className=" mt-72 ">
         <Footer />
       </div>
     </div>

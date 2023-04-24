@@ -5,9 +5,9 @@ export default function ProjectCardsForSmallScreen() {
   return (
     <div className="space-y-5">
       <ProjectCardForSmallScreen
-        description="Managili is a platform that offers e-commercers the ability to generate landing pages for each of their products with ease, And effortlessly manage and monitor their orders. Besides, the platform is synchronized with multiple delivery companies ."
+        description="Managili is an e-commerce platform, similar to Shopify, that provides a comprehensive suite of tools to create and manage online stores with ease. And it's integrated with the largest delivery companies in Algeria and stripe payment gateway."
         title="Managili"
-        type="For Production Purposes & in progress"
+        type="Company"
         tools={[
           "TypeScript",
           "NextJS",
@@ -20,7 +20,6 @@ export default function ProjectCardsForSmallScreen() {
           "Facebook pixel",
           "Google oauth",
           "third party api integration",
-          "Delivery companies synchronization",
         ]}
         photo="Managili.png"
       />

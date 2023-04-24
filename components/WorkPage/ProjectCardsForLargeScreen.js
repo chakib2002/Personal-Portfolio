@@ -10,7 +10,7 @@ export default function ProjectCardsForLargeScreen() {
       className="hidden md:block space-y-16 mt-10"
     >
       <ProjectCardForLargeScreen
-        description="Managili is a platform that offers e-commercers the ability to generate landing pages for each of their products with ease, requiring only a single click, businesses can effortlessly manage and monitor their orders on this platform. and it is synchronized with multiple delivery companies ."
+        description="Managili is an e-commerce platform, similar to Shopify, that provides a comprehensive suite of tools to create and manage online stores with ease. And it's integrated with the largest delivery companies in Algeria and stripe payment gateway."
         title="Managili"
         type="Company"
         tools={[
@@ -25,7 +25,6 @@ export default function ProjectCardsForLargeScreen() {
           "Facebook pixel",
           "Google oauth",
           "third party api integration",
-          "Delivery companies synchronization",
         ]}
         rev={true}
         photo="managili.png"

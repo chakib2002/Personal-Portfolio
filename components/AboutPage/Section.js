@@ -61,7 +61,18 @@ export default function Section() {
           <div className="h-6" />
           <p className="md:indent-10">
             {" "}
-            I had the privilege to work as a software engineer for{" "}
+            My web development skill and my entrepreneurial spirit helped me to
+            establish and grow a successful business from the ground up which is
+            <a href={"https://managili.com/"} target="_blank" rel="noreferrer">
+              {" "}
+              <span className="hover:underline text-green-500 cursor-pointer">
+                {" "}
+                Managili
+              </span>
+            </a>{" "}
+            a shopify like company that is well-integrated with the delivery
+            companies in Algeria. Prior to that, I had the privilege to work as
+            a software engineer for{" "}
             <a
               href={"https://yassir.com/en/home/"}
               target="_blank"
@@ -112,18 +123,9 @@ export default function Section() {
             .
           </p>
           <p className="md:indent-10 my-3">
-            Now I founded{" "}
-            <a href="https://managili.com/" target={"_blank"} rel="noreferrer">
-              <span className="hover:underline text-green-500 cursor-pointer">
-                managili
-              </span>{" "}
-            </a>
-            which is a platform designed especially for e-commercers in Algeria
-            to create their own online stores, manage their orders and
-            synchronize them with a delivery company of their choice. And I am
-            interested in working as a freelancer on various projects, and
-            solving my clients problems depending on their needs by implementing
-            the best solutions and using the latest technologies .{" "}
+            Now I am interested in working as a freelancer on various projects,
+            and solving my clients problems depending on their needs by
+            implementing the best solutions and using the latest technologies .{" "}
           </p>
         </div>
       </div>

@@ -2,6 +2,7 @@ import { LinkIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import React from "react";
 import style from "../../styles/Page.module.css";
+import Link from "next/link";
 
 export default function ProjectCardForLargeScreen({
   tools,
@@ -20,17 +21,19 @@ export default function ProjectCardForLargeScreen({
     <div className={`mx-5 lg:mx-10 text-white `}>
       {rev ? (
         <div className=" flex justify-center space-x-5">
-          <div className="relative h-[300px] w-[600px]">
-            <Image
-              className=" cursor-pointer opacity-70 hover:opacity-100 transition duration-300 ease-in "
-              src={`/${photo}`}
-              layout="responsive"
-              width="1440"
-              height="725"
-              alt="project code"
-            />
-          </div>
-          <div className="relative my-auto">
+          <Link href={code} target="_blank" rel="noreferrer">
+            <div className="relative h-[300px] w-[600px]">
+              <Image
+                className=" cursor-pointer opacity-70 hover:opacity-100 transition duration-300 ease-in "
+                src={`/${photo}`}
+                layout="responsive"
+                width="1440"
+                height="725"
+                alt="project code"
+              />
+            </div>
+          </Link>
+          <div className="relative my-auto w-[50%]">
             <h2 className={`text-sm ${color}`}>{type}</h2>
             <h1 className="my-3 text-lg font-semibold">{title}</h1>
             <p
@@ -75,14 +78,16 @@ export default function ProjectCardForLargeScreen({
                 </a>
               )}
               {externals === 2 && (
-                <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+                <Link href={code} target={"_blank"} rel="noreferrer">
+                  <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+                </Link>
               )}
             </div>
           </div>
         </div>
       ) : (
         <div className=" flex justify-center space-x-5">
-          <div className="relative my-auto text-right">
+          <div className="relative my-auto text-right ">
             <h2 className={` text-sm ${color}`}>{type}</h2>
             <h1 className="my-3 text-lg font-semibold">{title}</h1>
             <p
@@ -133,16 +138,18 @@ export default function ProjectCardForLargeScreen({
               )}
             </div>
           </div>
-          <div className="h-[300px] w-[600px]">
-            <Image
-              className=" cursor-pointer opacity-70 hover:opacity-100 transition duration-300 ease-in "
-              src={`/${photo}`}
-              layout="responsive"
-              width="1440"
-              height="725"
-              alt="project code"
-            />
-          </div>
+          <Link href={code} target="_blank" rel="noreferrer">
+            <div className="h-[300px] w-[600px]">
+              <Image
+                className=" cursor-pointer opacity-70 hover:opacity-100 transition duration-300 ease-in "
+                src={`/${photo}`}
+                layout="responsive"
+                width="1440"
+                height="725"
+                alt="project code"
+              />
+            </div>
+          </Link>
         </div>
       )}
     </div>

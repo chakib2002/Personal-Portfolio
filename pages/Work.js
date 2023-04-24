@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import ProjectCardsForLargeScreen from "../components/WorkPage/ProjectCardsForLargeScreen";
 import ProjectCardsForSmallScreen from "../components/WorkPage/ProjectCardsForSmallScreen";
 import SecondaryProjectCards from "../components/WorkPage/SecondaryProjectCards";
-import ShowMoreButton from "../components/WorkPage/ShowMoreButton";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 export default function work() {
@@ -17,9 +16,9 @@ export default function work() {
       <ProjectCardsForLargeScreen />
       <ProjectCardsForSmallScreen />
       <SecondaryProjectCards />
-     {
-      // <ShowMoreButton />
-     }
+      {
+        // <ShowMoreButton />
+      }
       <Footer />
     </div>
   );
