@@ -23,11 +23,11 @@ export default function Section() {
         </div>
         <div className="text-slate-300 my-10 md:my-0 text-left text-sm ">
           <p className="md:indent-10  ">
-            Hello!My name is Abdelmalek and I am passionate about creating
+            {` Hello!My name is Abdelmalek and I am passionate about creating
             things that live on the internet. I am currently a full stack
             freelancer web developer experienced in building (and occasionally
             designing) single-page web applications using the latest
-            technologies such as :{" "}
+            technologies such as : `}
           </p>
           <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 ml-5 gap-1 mt-2 list-disc">
             <li>Next js</li>
@@ -68,9 +68,9 @@ export default function Section() {
                 Managili
               </span>
             </a>{" "}
-            a shopify like company that is well-integrated with the delivery
+            {`a shopify like company that is well-integrated with the delivery
             companies in Algeria. Prior to that, I had the privilege to be an
-            OPS and a member of the IT department at{" "}
+            OPS and a member of the IT department at `}
             <a
               href="https://www.facebook.com/Micro.Club.USTHB"
               target={"_blank"}
@@ -83,10 +83,10 @@ export default function Section() {
               </span>
               ,{" "}
             </a>
-            As an OPS member, my responsibility involved event planning and
+            {` As an OPS member, my responsibility involved event planning and
             execution to ensure the seamless functioning of the club's
             operations. I am proud of how I helped the club grow using the
-            experience I gained from being a professional Mentor at{" "}
+            experience I gained from being a professional Mentor at `}
             <a
               href="https://www.worldlearning.org/program/algiers-stem-center/"
               target={"_blank"}
@@ -111,9 +111,9 @@ export default function Section() {
             .
           </p>
           <p className="md:indent-10 my-3">
-            Now, I am seeking new employment opportunities and am open to
+            {`  Now, I am seeking new employment opportunities and am open to
             exploring potential job opportunities. Please feel free to contact
-            me for further inquiries or to schedule a discussion at :{" "}
+            me for further inquiries or to schedule a discussion at : `}
             {/* Now I am interested in working as a freelancer on various projects,
             and solving my clients problems depending on their needs by
             implementing the best solutions and using the latest technologies .{" "} */}
