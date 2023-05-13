@@ -11,7 +11,7 @@ export default function About() {
     <div className="bg-slate-900">
       <Navbar N_color="text-green-500" />
       <Header
-        title="I am an international web developer freelancer based in Algeria."
+        title="I am a full-stack web developer based in Algeria."
         question="Who I am"
       />
       <Section />
