@@ -27,8 +27,8 @@ export default function ProjectCardForLargeScreen({
                 className=" cursor-pointer opacity-70 hover:opacity-100 transition duration-300 ease-in "
                 src={`/${photo}`}
                 layout="responsive"
-                width="1440"
-                height="725"
+                width="6"
+                height="3"
                 alt="project code"
               />
             </div>
