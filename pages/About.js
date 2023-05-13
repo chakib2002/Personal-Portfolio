@@ -4,6 +4,7 @@ import Section from "../components/AboutPage/Section";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
+import History from "../components/AboutPage/History";
 
 export default function About() {
   return (
@@ -14,6 +15,7 @@ export default function About() {
         question="Who I am"
       />
       <Section />
+      <History />
       <Footer />
     </div>
   );

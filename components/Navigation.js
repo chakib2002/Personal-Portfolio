@@ -7,7 +7,7 @@ import Skills from "./Navigation/Skills";
 
 export default function Navigation() {
   return (
-    <div className="mx-10 my-16 ">
+    <div className="mx-5 lg:mx-10 my-16 ">
       <div className="lg:hidden">
         <div className="space-y-5">
           <About />

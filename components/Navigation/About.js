@@ -25,10 +25,10 @@ export default function About() {
           className={` ${style.aboutTitle}
         hidden lg:inline-block mx-5 w-[540px] lg:text-5xl lg:w-[550px] font-semibold tracking-widest`}
         >
-          <h1>Learn More About The Freelancer</h1>
+          <h1>Learn More About The Developer</h1>
         </div>
         <div className="lg:hidden text-2xl mx-5 font-bold tracking-widest ">
-          <span>Learn More About The Freelancer</span>
+          <span>Learn More About The Developer</span>
         </div>
         <div className="mx-5 my-5 lg:my-6 lg:mt-16 text-xs font-semibold flex justify-between ">
           <p className="self-center font-semibold tracking-widest cursor-pointer ">
