@@ -21,7 +21,9 @@ export default function ProjectCardsForSmallScreen() {
           "Google oauth",
           "third party api integration",
         ]}
-        photo="Managili.png"
+        photo="managili.png"
+        site={"https://managili.com"}
+        externals={2}
       />
       <ProjectCardForSmallScreen
         description="Aiutami is a platform that helps Individual Housekeepers, Tutors and Senior caregivers connects with clients and get hired ."

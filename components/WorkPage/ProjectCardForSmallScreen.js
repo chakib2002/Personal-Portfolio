@@ -10,7 +10,7 @@ export default function ProjectCardForSmallScreen({
   photo,
   code,
   site,
-  externals
+  externals,
 }) {
   return (
     <div
@@ -23,8 +23,8 @@ export default function ProjectCardForSmallScreen({
         src={`/${photo}`}
         alt="project photo"
         layout="responsive"
-        width="6"
-        height="3"
+        width="2467"
+        height="1472"
         className=" opacity-75 "
       />
       <div className="px-10 py-10 ">
@@ -41,47 +41,41 @@ export default function ProjectCardForSmallScreen({
           })}
         </div>
         <div className="flex space-x-3 mt-10">
-        {
-                externals === 0 && (
-                  <>
-                  <a href={code} target={'_blank'} rel="noreferrer">
-                    <Image
-                      className="cursor-pointer active:scale-90 transition duration-300 ease-out"
-                      src="/github.png"
-                      alt="discord"
-                      width="20"
-                      height="20"
-                      layout="fixed"
-                    />
-                  </a>
-                  <a href={site} target={'_blank'} rel="noreferrer">
-                    <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
-                  </a>
-                  </>
-                )
-              }
+          {externals === 0 && (
+            <>
+              <a href={code} target={"_blank"} rel="noreferrer">
+                <Image
+                  className="cursor-pointer active:scale-90 transition duration-300 ease-out"
+                  src="/github.png"
+                  alt="discord"
+                  width="20"
+                  height="20"
+                  layout="fixed"
+                />
+              </a>
+              <a href={site} target={"_blank"} rel="noreferrer">
+                <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+              </a>
+            </>
+          )}
 
-              {
-                externals === 1 && (
-                  <a href={code} target={'_blank'} rel="noreferrer">
-                    <Image
-                      className="cursor-pointer active:scale-90 transition duration-300 ease-out"
-                      src="/github.png"
-                      alt="discord"
-                      width="20"
-                      height="20"
-                      layout="fixed"
-                    />
-                  </a>
-                )
-              }
-              {
-                externals ===2 && (
-                 <a href={site} target={'_blank'} rel="noreferrer">
-                   <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
-                 </a>
-                )
-              }
+          {externals === 1 && (
+            <a href={code} target={"_blank"} rel="noreferrer">
+              <Image
+                className="cursor-pointer active:scale-90 transition duration-300 ease-out"
+                src="/github.png"
+                alt="discord"
+                width="20"
+                height="20"
+                layout="fixed"
+              />
+            </a>
+          )}
+          {externals === 2 && (
+            <a href={site} target={"_blank"} rel="noreferrer">
+              <LinkIcon className="h-5 w-5 text-white cursor-pointer active:scale-90 transition duration-300 ease-out" />
+            </a>
+          )}
         </div>
       </div>{" "}
     </div>
