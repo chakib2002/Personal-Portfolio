@@ -22,7 +22,7 @@ export default function ProjectCardsForSmallScreen() {
           "third party api integration",
         ]}
         photo="managili.png"
-        site={"https://managili.com"}
+        site={"https://managili-xi.vercel.app/"}
         externals={2}
       />
       <ProjectCardForSmallScreen
