@@ -14,7 +14,7 @@ export default function JobTask({
         <h1 className="text-xl font-semibold">
           {title}{" "}
           {company === "Managili" && (
-            <a href="https://managili.com/" target={"_blank"} rel="noreferrer">
+            <a href="https://managili-xi.vercel.app/" target={"_blank"} rel="noreferrer">
               <span className="text-green-400 font-normal text-xl lg:hover:underline lg:hover:underline-offset-4 cursor-pointer">
                 @{company}
               </span>
