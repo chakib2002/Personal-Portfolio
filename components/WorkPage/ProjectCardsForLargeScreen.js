@@ -31,7 +31,7 @@ export default function ProjectCardsForLargeScreen() {
         color="text-green-500"
         bg={"bg-green-700"}
         externals={2}
-        code="https://managili.com"
+        code="https://managili-xi.vercel.app/"
       />
       <ProjectCardForLargeScreen
         description="Aiutami is a platform that helps Individual Housekeepers, Tutors and Senior caregivers connects with clients and get hired ."
